@@ -1,2 +1,4 @@
-# Mapping hospitals, doctors, others to national map
+This folder contains the code I have used to generate maps that have the different hospitals etc in it. 
+
+
 
