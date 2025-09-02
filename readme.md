@@ -1,4 +1,17 @@
 # geographical code mapping
 
 
-# Mapping hospitals, doctors, others to national map
+This folder contains the code I have used to generate maps that have the
+different hospitals etc in it.
+
+  
+
+My own purpose is to visualize where the labtests are performed and
+requisitioned. However, it might be of use to other people as well.
+
+  
+
+The readme was written in Quarto, but converted into md for the sake of
+github. Pre-plotting steps are perfomed in python, plotting in R.
+
+  
