@@ -34,4 +34,18 @@ All files are saved as geojson - very like json but with a geometry column that 
 2. coordinates.py
    1. Adapts the loaded data and makes geojson files that contain stuff for plotting. 
 3. plotting.r
-   1. Code for plotting the geojson in r. This includes 
+   1. Code for plotting the geojson in r. This includes code for loading the geojson and converting it to a tibble. This can also be done in python - although the geojsons can be directly loaded and plotted in geopandas / matplotlib. 
+
+## Plot examples: 
+
+Some examples of: 
+
+1. Denmark and administrative divisions. 
+2. Different Healthcare institutions. 
+
+### Plots of Denmark: 
+
+
+```{r echo=TRUE}
+
+```
