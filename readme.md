@@ -99,8 +99,5 @@ width="2100" />
 
 And the SOR-codes:
 
-    Warning: Removed 90084 rows containing missing values or values outside the scale range
-    (`geom_point()`).
-
 <img src="readme_files/figure-commonmark/unnamed-chunk-9-1.png"
 width="2100" />
