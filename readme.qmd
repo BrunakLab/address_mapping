@@ -142,7 +142,7 @@ shak_coords <- shak_raw |>
 yder_raw <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/yder.geojson")
 yder_numbers <- yder_raw |>
     as_tibble() |>
-    select(Ydernummer)
+    select(Ydernummer, Unit_type)
 yder_coords <- yder_raw |>
     st_coordinates() |>
     as_tibble() |>
@@ -303,10 +303,9 @@ municipality_coord |>
     ) +
     geom_point(
         data = yder_coords,
-        mapping = aes(x = X, y = Y),
+        mapping = aes(x = X, y = Y, fill = Unit_type),
         shape = 21,
         alpha = 0.7,
-        fill = "orange4",
         color = "black",
         size = 1.5,
         stroke = 0.3
@@ -319,7 +318,8 @@ municipality_coord |>
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
         axis.title = element_blank()
-    )
+    ) +
+    scale_fill_paletteer_d("tvthemes::FireNation")
 
 ```
 

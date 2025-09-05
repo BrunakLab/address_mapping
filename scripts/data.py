@@ -7,6 +7,15 @@ import requests
 from shapely.geometry import Point
 import geopandas as gpd
 
+def replace_levels(level_1, level_2, level_3): 
+    return(pl.when(pl.col(level_1).is_not_null())
+      .then(pl.col(level_1))
+      .when(pl.col(level_1).is_null() & pl.col(level_2).is_not_null())
+      .then(pl.col(level_2))
+      .when(pl.col(level_1).is_null() & pl.col(level_2).is_null() & pl.col(level_3).is_not_null())
+      .then(pl.col(level_3))
+      .otherwise(pl.lit(None)))
+
 # I start with organisations 
 # https://statistik.medcom.dk/exports/organisations.zip
 url_org = 'https://statistik.medcom.dk/exports/organisations.csv'
@@ -154,26 +163,23 @@ pl_sor_rel = (sor_relevant
 # First the yder: 
 yder_adresse = (pl_sor_rel
     .filter(pl.col('Ydernummer').is_not_null())
-    .select(['SHAK_code', 'Unit_type', 'Unit_name', 'SOR_code', 'Ydernummer', 'end_coord_x', 'end_coord_y', 'end_postnummer', 'end_region']))
+    .with_columns(end_coord_x = replace_levels(level_1 = 'Visitation_X_coord_easting', level_2 = 'Activity_X_coord', level_3 = 'Postal_X_coord'), 
+                  end_coord_y = replace_levels(level_1 = 'Visitation_Y_coord_northing', level_2 = 'Activity_Y_coord', level_3 = 'Postal_Y_coord'), 
+                  end_postnummer = replace_levels(level_1 = 'Visitation_postnummer', level_2 = 'Activity_postnummer', level_3 = 'Postal_postnummer'), 
+                  end_region = replace_levels(level_1 = 'Visitation_region', level_2 = 'Activity_region', level_3 = 'Postal_region'))
+    .with_columns(pl.col('end_coord_x').str.replace_all(',', '.').cast(pl.Float32), 
+                  pl.col('end_coord_y').str.replace_all(',', '.').cast(pl.Float32))
+    .select(['SHAK_code', 'Unit_type', 'Unit_name', 'SOR_code', 'Ydernummer', 'end_coord_x', 'end_coord_y', 'end_postnummer', 'end_region'])
     .drop_nulls())
 
 list_coords = [] 
-for x,y in zip(yder_adresse['Activity_X_coord'], yder_adresse['Activity_Y_coord']): 
+for x,y in zip(yder_adresse['end_coord_x'], yder_adresse['end_coord_y']): 
     list_coords.append(Point(x,y))
 
 yder_gdf = gpd.GeoDataFrame({'Ydernummer': yder_adresse['Ydernummer'], 
                              'geometry':list_coords}, crs="EPSG:25832").to_crs("EPSG:4326")
 
 yder_gdf.to_file('/home/jenswaaben/phd/software/adress_mapping/data/yder.geojson', driver = 'GeoJSON')
-
-def replace_levels(level_1, level_2, level_3): 
-    return(pl.when(pl.col(level_1).is_not_null())
-      .then(pl.col(level_1))
-      .when(pl.col(level_1).is_null() & pl.col(level_2).is_not_null())
-      .then(pl.col(level_2))
-      .when(pl.col(level_1).is_null() & pl.col(level_2).is_null() & pl.col(level_3).is_not_null())
-      .then(pl.col(level_3))
-      .otherwise(pl.lit(None)))
 
 # Now for the SHAK in the SOR file: 
 shak_replaced = (pl_sor_rel
