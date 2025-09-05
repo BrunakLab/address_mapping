@@ -47,7 +47,8 @@ Some examples of:
 ### Plots of Denmark: 
 
 
-```{r echo=TRUE}
+```{r}
+#| echo: false
 
 1 + 1
 

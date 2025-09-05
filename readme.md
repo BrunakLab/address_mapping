@@ -61,8 +61,4 @@ Some examples of:
 
 ### Plots of Denmark:
 
-``` r
-1 + 1
-```
-
     [1] 2
