@@ -71,3 +71,15 @@ Then the regions:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-4-1.png"
 width="2100" />
+
+The municipalities:
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-5-1.png"
+width="2100" />
+
+The Postal code:
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-6-1.png"
+width="2100" />
+
+That was it for administrative

@@ -67,7 +67,7 @@ denmark_coord <- as_tibble(st_coordinates(denmark_g)) |>
     ) |>
     ungroup()
 
-# now the
+# now the regions
 regions_g <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/regions.geojson") |>
     st_collection_extract(type = c("POLYGON")) |>
     st_cast("MULTIPOLYGON")
@@ -78,6 +78,46 @@ region_names <- regions_g |>
     select(L3, navn)
 regions_coord <- as_tibble(st_coordinates(regions_g)) |>
     left_join(region_names) |>
+    group_by(L1, L2, L3) |>
+    mutate(
+        order = row_number(),
+        group_id = cur_group_id()
+    ) |>
+    ungroup()
+
+# and the municipalities:
+municipality_g <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/municipality.geojson") |>
+    st_collection_extract(type = c("POLYGON")) |>
+    st_cast("MULTIPOLYGON")
+municipality_names <- municipality_g |>
+    st_drop_geometry() |>
+    as_tibble() |>
+    mutate(L3 = row_number()) |>
+    select(L3, navn)
+municipality_coord <- as_tibble(st_coordinates(municipality_g)) |>
+    left_join(municipality_names) |>
+    group_by(L1, L2, L3) |>
+    mutate(
+        order = row_number(),
+        group_id = cur_group_id()
+    ) |>
+    ungroup()
+
+# And the postal codes:
+postal_codes_g_empty <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/postal_codes.geojson")
+postal_codes_g_non_empty <- postal_codes_g_empty[!st_is_empty(postal_codes_g_empty), ]
+postal_codes_g <- postal_codes_g_non_empty |>
+    st_collection_extract(type = c("POLYGON")) |>
+    st_cast("MULTIPOLYGON")
+postal_codes_numbers <- postal_codes_g |>
+    st_drop_geometry() |>
+    as_tibble() |>
+    mutate(L3 = row_number()) |>
+    select(L3, nr) |>
+    mutate(nr = as.numeric(nr))
+postal_codes_coord <- st_coordinates(postal_codes_g) |>
+    as_tibble() |>
+    left_join(postal_codes_numbers) |>
     group_by(L1, L2, L3) |>
     mutate(
         order = row_number(),
@@ -96,7 +136,7 @@ First of a simple plot of Denmark. The colors are just individual "blobs".
 
 denmark_coord |>
     ggplot(mapping = aes(x = X, y = Y, group = group_id)) +
-    geom_polygon(fill = "blue") +
+    geom_polygon(fill = "deepskyblue4") +
     theme_minimal() +
     theme(
         legend.position = "none",
@@ -130,3 +170,45 @@ ggplot(data = regions_coord) +
     scale_fill_paletteer_d("tvthemes::WaterTribe")
 
 ```
+
+The municipalities: 
+
+
+```{r}
+#| echo: false
+
+ggplot(data = municipality_coord) +
+    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = navn)) +
+    theme_minimal() +
+    theme(
+        legend.position = "none",
+        panel.background = element_rect(color = "black"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    )
+
+```
+
+The Postal code: 
+
+```{r}
+#| echo: false
+
+ggplot(data = postal_codes_coord) +
+    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = nr)) +
+    theme_minimal() +
+    theme(
+        # legend.position = "none",
+        panel.background = element_rect(color = "black"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    ) +
+    scale_fill_paletteer_c("grDevices::Berlin")
+
+```
+
+That was it for administrative 
