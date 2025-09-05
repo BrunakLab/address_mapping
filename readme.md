@@ -96,3 +96,8 @@ Then the Ydelses codes:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-8-1.png"
 width="2100" />
+
+And the SOR-codes:
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-9-1.png"
+width="2100" />

@@ -154,7 +154,7 @@ pl_sor_rel = (sor_relevant
 # First the yder: 
 yder_adresse = (pl_sor_rel
     .filter(pl.col('Ydernummer').is_not_null())
-    .select(['Ydernummer', 'Activity_X_coord', 'Activity_Y_coord'])
+    .select(['SHAK_code', 'Unit_type', 'Unit_name', 'SOR_code', 'Ydernummer', 'end_coord_x', 'end_coord_y', 'end_postnummer', 'end_region']))
     .drop_nulls())
 
 list_coords = [] 
