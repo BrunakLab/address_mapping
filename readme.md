@@ -91,3 +91,8 @@ First the SHAK codes:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-7-1.png"
 width="2100" />
+
+Then the Ydelses codes:
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-8-1.png"
+width="2100" />

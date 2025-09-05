@@ -287,3 +287,34 @@ First the SHAK codes:
     )))
 
 ```
+
+Then the Ydelses codes: 
+
+
+```{r}
+#| echo: false
+
+municipality_coord |>
+    ggplot() +
+    geom_polygon(mapping = aes(x = X, y = Y, group = group_id), fill = "#8791eb", color = "white") +
+    geom_point(
+        data = yder_coords,
+        mapping = aes(x = X, y = Y),
+        shape = 21,
+        alpha = 0.7,
+        fill = "orange",
+        color = "black",
+        size = 2.5,
+        stroke = 0.3
+    ) +
+    theme_minimal() +
+    theme(
+        legend.position = "none",
+        panel.background = element_rect(color = "black", fill = "#f8f5ef"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    )
+
+```
