@@ -277,7 +277,7 @@ First the SHAK codes:
     ) +
     guides(fill = guide_legend(
         ncol = 2,
-        keyheight = unit(1.2, "cm"),
+        keyheight = unit(0.2, "cm"),
         theme = theme(legend.text = element_text(size = 4))
     )))
 
