@@ -96,7 +96,7 @@ First of a simple plot of Denmark. The colors are just individual "blobs".
 
 denmark_coord |>
     ggplot(mapping = aes(x = X, y = Y, group = group_id)) +
-    geom_polygon(mapping = aes(fill = group_id)) +
+    geom_polygon(fill = "blue") +
     theme_minimal() +
     theme(
         legend.position = "none",
