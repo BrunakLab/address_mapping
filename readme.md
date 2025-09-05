@@ -16,16 +16,19 @@ github. Pre-plotting steps are perfomed in python, plotting in R.
 
   
 
-Important resources are: 1. Medcom - Information on all medical
-providers 1. Henvisningstabel:
-https://medcom.dk/projekter/pakkehenvisninger/henvisningstabellen/ 1.
-Information on the service provided (but has some ydernumre) 2.
-SHAK-codes - Sygehus-afdelingsklassifikation 1.
-https://sor-filer.sundhedsdata.dk/sor_produktion/data/shak/ 3.
-SOR-codes - sundhedsvæsnets organisationsregister 1.
-https://sor-filer.sundhedsdata.dk/sor_produktion/data/sor/ 4. DAWA -
-geographical information based on addresses 1. Used via API to find
-coordinate / municipality of a given address
+Important resources are:
+
+1.  Medcom - Information on all medical providers
+    1.  Henvisningstabel:
+        https://medcom.dk/projekter/pakkehenvisninger/henvisningstabellen/
+        1.  Information on the service provided (but has some ydernumre)
+2.  SHAK-codes - Sygehus-afdelingsklassifikation
+    1.  https://sor-filer.sundhedsdata.dk/sor_produktion/data/shak/
+3.  SOR-codes - sundhedsvæsnets organisationsregister
+    1.  https://sor-filer.sundhedsdata.dk/sor_produktion/data/sor/
+4.  DAWA - geographical information based on addresses
+    1.  Used via API to find coordinate / municipality of a given
+        address
 
 ## Files:
 
@@ -57,3 +60,9 @@ Some examples of:
 2.  Different Healthcare institutions.
 
 ### Plots of Denmark:
+
+``` r
+1 + 1
+```
+
+    [1] 2

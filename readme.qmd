@@ -11,6 +11,7 @@ The readme was written in Quarto, but converted into md for the sake of github. 
 \
 
 Important resources are: 
+
 1. Medcom - Information on all medical providers
    1. Henvisningstabel: https://medcom.dk/projekter/pakkehenvisninger/henvisningstabellen/
       1. Information on the service provided (but has some ydernumre)
@@ -47,5 +48,7 @@ Some examples of:
 
 
 ```{r echo=TRUE}
+
+1 + 1
 
 ```
