@@ -66,12 +66,30 @@ denmark_coord <- as_tibble(st_coordinates(denmark_g)) |>
         group_id = cur_group_id()
     ) |>
     ungroup()
-#
+
+# now the
+regions_g <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/regions.geojson") |>
+    st_collection_extract(type = c("POLYGON")) |>
+    st_cast("MULTIPOLYGON")
+region_names <- regions_g |>
+    st_drop_geometry() |>
+    as_tibble() |>
+    mutate(L3 = row_number()) |>
+    select(L3, navn)
+regions_coord <- as_tibble(st_coordinates(regions_g)) |>
+    left_join(region_names) |>
+    group_by(L1, L2, L3) |>
+    mutate(
+        order = row_number(),
+        group_id = cur_group_id()
+    ) |>
+    ungroup()
 
 ```
 
 ### Plots of Denmark: 
 
+First of a simple plot of Denmark. The colors are just individual "blobs". 
 
 ```{r}
 #| echo: false
@@ -90,5 +108,25 @@ denmark_coord |>
     ) +
     scale_fill_paletteer_c("ggthemes::Orange-Blue Diverging")
 
+
+```
+
+Then the regions: 
+
+```{r}
+#| echo: false
+
+ggplot(data = regions_coord) +
+    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = navn)) +
+    theme_minimal() +
+    theme(
+        legend.position = "none",
+        panel.background = element_rect(color = "black"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    ) +
+    scale_fill_paletteer_d("tvthemes::WaterTribe")
 
 ```

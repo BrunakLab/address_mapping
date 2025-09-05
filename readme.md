@@ -61,5 +61,13 @@ Some examples of:
 
 ### Plots of Denmark:
 
+First of a simple plot of Denmark. The colors are just individual
+“blobs”.
+
 <img src="readme_files/figure-commonmark/unnamed-chunk-3-1.png"
+width="2100" />
+
+Then the regions:
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-4-1.png"
 width="2100" />
