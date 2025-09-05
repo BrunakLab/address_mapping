@@ -1,4 +1,5 @@
 ```{r}
+#| include: false
 library("tidyverse")
 library("sf")
 library("plotly")
@@ -54,6 +55,7 @@ Some examples of:
 
 ```{r}
 #| include: false
+#|
 
 # Data Denmark
 denmark_g <- sf::st_read("data/denmark.geojson")
