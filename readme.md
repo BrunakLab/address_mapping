@@ -107,4 +107,5 @@ Some examples of:
 
 ### Plots of Denmark:
 
-![](readme_files/figure-commonmark/unnamed-chunk-3-1.png)
+<img src="readme_files/figure-commonmark/unnamed-chunk-3-1.png"
+width="2100" />
