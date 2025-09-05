@@ -256,7 +256,12 @@ First the SHAK codes:
 
 (regions_coord |>
     ggplot() +
-    geom_polygon(mapping = aes(x = X, y = Y, group = group_id), fill = "deepskyblue4", color = "white") +
+    geom_polygon(
+        mapping = aes(x = X, y = Y, group = group_id),
+        fill = "deepskyblue4",
+        color = "white",
+        linewidth = 0.2
+    ) +
     geom_point(
         data = shak_coords,
         mapping = aes(x = X, y = Y, fill = Unit_type),
