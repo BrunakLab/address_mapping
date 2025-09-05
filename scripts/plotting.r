@@ -7,7 +7,7 @@ library("paletteer")
 options(pillar.sigfig = 10)
 
 # Plotting all of Denmark
-denmark_g <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/denmark.geojson")
+denmark_g <- sf::st_read("data/denmark.geojson")
 denmark_coord <- as_tibble(st_coordinates(denmark_g)) |>
     group_by(L1, L2, L3) |>
     mutate(

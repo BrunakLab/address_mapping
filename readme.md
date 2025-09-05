@@ -1,6 +1,52 @@
 # Geographical code mapping
 
 
+``` r
+library("tidyverse")
+```
+
+    ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+    ✔ dplyr     1.1.4     ✔ readr     2.1.5
+    ✔ forcats   1.0.0     ✔ stringr   1.5.1
+    ✔ ggplot2   3.4.4     ✔ tibble    3.2.1
+    ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+    ✔ purrr     1.0.2     
+    ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ✖ purrr::%||%()   masks base::%||%()
+    ✖ dplyr::filter() masks stats::filter()
+    ✖ dplyr::lag()    masks stats::lag()
+    ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+``` r
+library("sf")
+```
+
+    Linking to GEOS 3.10.2, GDAL 3.4.1, PROJ 8.2.1; sf_use_s2() is TRUE
+
+``` r
+library("plotly")
+```
+
+
+    Attaching package: 'plotly'
+
+    The following object is masked from 'package:ggplot2':
+
+        last_plot
+
+    The following object is masked from 'package:stats':
+
+        filter
+
+    The following object is masked from 'package:graphics':
+
+        layout
+
+``` r
+library("purrr")
+library("paletteer")
+```
+
 This folder contains the code I have used to generate maps that have the
 different hospitals etc in it.
 
@@ -61,4 +107,4 @@ Some examples of:
 
 ### Plots of Denmark:
 
-    [1] 2
+![](readme_files/figure-commonmark/unnamed-chunk-3-1.png)

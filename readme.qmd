@@ -1,3 +1,11 @@
+```{r}
+library("tidyverse")
+library("sf")
+library("plotly")
+library("purrr")
+library("paletteer")
+```
+
 This folder contains the code I have used to generate maps that have the different hospitals etc in it. 
 
 \
@@ -44,12 +52,41 @@ Some examples of:
 1. Denmark and administrative divisions. 
 2. Different Healthcare institutions. 
 
+```{r}
+#| include: false
+
+# Data Denmark
+denmark_g <- sf::st_read("data/denmark.geojson")
+denmark_coord <- as_tibble(st_coordinates(denmark_g)) |>
+    group_by(L1, L2, L3) |>
+    mutate(
+        order = row_number(),
+        group_id = cur_group_id()
+    ) |>
+    ungroup()
+#
+
+```
+
 ### Plots of Denmark: 
 
 
 ```{r}
 #| echo: false
 
-1 + 1
+denmark_coord |>
+    ggplot(mapping = aes(x = X, y = Y, group = group_id)) +
+    geom_polygon(mapping = aes(fill = group_id)) +
+    theme_minimal() +
+    theme(
+        legend.position = "none",
+        panel.background = element_rect(color = "black"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    ) +
+    scale_fill_paletteer_c("ggthemes::Orange-Blue Diverging")
+
 
 ```
