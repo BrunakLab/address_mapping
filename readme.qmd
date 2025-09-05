@@ -296,7 +296,12 @@ Then the Ydelses codes:
 
 municipality_coord |>
     ggplot() +
-    geom_polygon(mapping = aes(x = X, y = Y, group = group_id), fill = "#8791eb", color = "white") +
+    geom_polygon(
+        mapping = aes(x = X, y = Y, group = group_id),
+        fill = "#8791eb",
+        color = "white",
+        linewidth = 0.3
+    ) +
     geom_point(
         data = yder_coords,
         mapping = aes(x = X, y = Y),
@@ -304,7 +309,7 @@ municipality_coord |>
         alpha = 0.7,
         fill = "orange",
         color = "black",
-        size = 2.5,
+        size = 1.5,
         stroke = 0.3
     ) +
     theme_minimal() +
