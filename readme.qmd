@@ -275,6 +275,6 @@ First the SHAK codes:
         axis.text = element_blank(),
         axis.title = element_blank()
     ) +
-    guides(fill = guide_legend(ncol = 1)))
+    guides(fill = guide_legend(ncol = 1, theme = theme(legend.text = element_text(size = 4)))))
 
 ```
