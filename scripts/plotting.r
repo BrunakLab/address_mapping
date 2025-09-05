@@ -126,9 +126,7 @@ yder_coords <- yder_raw |>
     st_coordinates() |>
     as_tibble() |>
     bind_cols(yder_numbers)
-denmark_max_x
-yder_coords |>
-    filter_points()
+
 
 
 p_denmark_yder <- municipality_coord |>

@@ -82,4 +82,12 @@ The Postal code:
 <img src="readme_files/figure-commonmark/unnamed-chunk-6-1.png"
 width="2100" />
 
-That was it for administrative
+That was it for administrative division, but more can be downloaded from
+DAWA if you want to.
+
+## Plotting healthcare institutions:
+
+First the SHAK codes:
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-7-1.png"
+width="2100" />

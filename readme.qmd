@@ -1,10 +1,12 @@
 ```{r}
 #| include: false
+library("ggplot2")
 library("tidyverse")
 library("sf")
 library("plotly")
 library("purrr")
 library("paletteer")
+library("ggnewscale")
 ```
 
 This folder contains the code I have used to generate maps that have the different hospitals etc in it. 
@@ -125,6 +127,37 @@ postal_codes_coord <- st_coordinates(postal_codes_g) |>
     ) |>
     ungroup()
 
+# loading points
+# shak
+shak_raw <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/shak_from_sor.geojson")
+shak_numbers <- shak_raw |>
+    as_tibble() |>
+    select(-geometry)
+shak_coords <- shak_raw |>
+    st_coordinates() |>
+    as_tibble() |>
+    bind_cols(shak_numbers)
+
+# yder
+yder_raw <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/yder.geojson")
+yder_numbers <- yder_raw |>
+    as_tibble() |>
+    select(Ydernummer)
+yder_coords <- yder_raw |>
+    st_coordinates() |>
+    as_tibble() |>
+    bind_cols(yder_numbers)
+
+# SOR:
+sor_raw <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/sor.geojson")
+sor_numbers <- sor_raw |>
+    as_tibble() |>
+    select(-geometry)
+sor_coords <- sor_raw |>
+    st_coordinates() |>
+    as_tibble() |>
+    bind_cols(sor_numbers)
+
 ```
 
 ### Plots of Denmark: 
@@ -211,4 +244,37 @@ ggplot(data = postal_codes_coord) +
 
 ```
 
-That was it for administrative 
+That was it for administrative division, but more can be downloaded from DAWA if you want to. 
+
+## Plotting healthcare institutions: 
+
+First the SHAK codes: 
+
+
+```{r}
+#| echo: false
+
+(regions_coord |>
+    ggplot() +
+    geom_polygon(mapping = aes(x = X, y = Y, group = group_id), fill = "deepskyblue4", color = "white") +
+    geom_point(
+        data = shak_coords,
+        mapping = aes(x = X, y = Y, fill = Unit_type),
+        shape = 21,
+        alpha = 0.7,
+        color = "black",
+        size = 2.5,
+        stroke = 0.3
+    ) +
+    theme_minimal() +
+    theme(
+        # legend.position = "none",
+        panel.background = element_rect(color = "black", fill = "#f8f5ef"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    ) +
+    guides(fill = guide_legend(ncol = 1)))
+
+```
