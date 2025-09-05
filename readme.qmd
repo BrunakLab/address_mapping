@@ -312,7 +312,7 @@ municipality_coord |>
     ) +
     theme_minimal() +
     theme(
-        legend.position = "none",
+        # legend.position = "none",
         panel.background = element_rect(color = "black", fill = "#f8f5ef"),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
