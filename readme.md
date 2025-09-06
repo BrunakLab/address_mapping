@@ -57,7 +57,8 @@ have a lot of tools for working with the geometries.
 Some examples of:
 
 1.  Denmark and administrative divisions.
-2.  Different Healthcare institutions.
+2.  Individual level Health institutions
+3.  Aggregated level Health institutions
 
 ### Plots of Denmark:
 
@@ -85,7 +86,7 @@ width="2100" />
 That was it for administrative division, but more can be downloaded from
 DAWA if you want to.
 
-## Plotting healthcare institutions:
+## Individual level healthcare institutions:
 
 First the SHAK codes:
 
@@ -100,4 +101,16 @@ width="2100" />
 And the SOR-codes:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-9-1.png"
+width="2100" />
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-9-2.png"
+width="2100" />
+
+### Aggregated level Health Institutions:
+
+I only do it for 30 municipalities because the computations are big for
+matching all shak with all areas - but it can be done on the server if
+transferred.
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-10-1.png"
 width="2100" />

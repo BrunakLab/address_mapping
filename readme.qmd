@@ -53,7 +53,8 @@ All files are saved as geojson - very like json but with a geometry column that 
 Some examples of: 
 
 1. Denmark and administrative divisions. 
-2. Different Healthcare institutions. 
+2. Individual level Health institutions
+3. Aggregated level Health institutions
 
 ```{r}
 #| include: false
@@ -158,6 +159,37 @@ sor_coords <- sor_raw |>
     as_tibble() |>
     bind_cols(sor_numbers)
 
+# counting overlaps:
+
+muni_shak_raw <- sf::st_join(
+    x = municipality_g |> slice_sample(n = 30),
+    y = shak_raw,
+    join = st_intersects,
+    largest = TRUE
+)
+
+muni_shak_counts <- muni_shak_raw |>
+    st_drop_geometry() |>
+    as_tibble() |>
+    group_by(navn) |>
+    count()
+
+muni_shak_count_coords <- municipality_coord |>
+    group_by(navn) |>
+    nest() |>
+    left_join(muni_shak_counts, by = "navn") |>
+    mutate(n = case_when(is.na(n) ~ 0,
+        .default = n
+    )) |>
+    unnest()
+
+
+# common color settings:
+denmark_fill <- "deepskyblue4"
+denmark_color <- "white"
+denmark_color_2 <- "#EE964B"
+background_color <- "#FAF0CA"
+
 ```
 
 ### Plots of Denmark: 
@@ -169,11 +201,11 @@ First of a simple plot of Denmark. The colors are just individual "blobs".
 
 denmark_coord |>
     ggplot(mapping = aes(x = X, y = Y, group = group_id)) +
-    geom_polygon(fill = "deepskyblue4") +
+    geom_polygon(fill = denmark_fill, color = denmark_color, linewidth = 0.2) +
     theme_minimal() +
     theme(
         legend.position = "none",
-        panel.background = element_rect(color = "black"),
+        panel.background = element_rect(color = "black", fill = background_color),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
@@ -190,11 +222,15 @@ Then the regions:
 #| echo: false
 
 ggplot(data = regions_coord) +
-    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = navn)) +
+    geom_polygon(
+        mapping = aes(x = X, y = Y, group = group_id, fill = navn),
+        color = denmark_color,
+        linewidth = 0.2
+    ) +
     theme_minimal() +
     theme(
         legend.position = "none",
-        panel.background = element_rect(color = "black"),
+        panel.background = element_rect(color = "black", fill = background_color),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
@@ -211,11 +247,15 @@ The municipalities:
 #| echo: false
 
 ggplot(data = municipality_coord) +
-    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = navn)) +
+    geom_polygon(
+        mapping = aes(x = X, y = Y, group = group_id, fill = navn),
+        color = denmark_color,
+        linewidth = 0.1
+    ) +
     theme_minimal() +
     theme(
         legend.position = "none",
-        panel.background = element_rect(color = "black"),
+        panel.background = element_rect(color = "black", fill = background_color),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
@@ -230,11 +270,15 @@ The Postal code:
 #| echo: false
 
 ggplot(data = postal_codes_coord) +
-    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = nr)) +
+    geom_polygon(
+        mapping = aes(x = X, y = Y, group = group_id, fill = nr),
+        color = denmark_color,
+        linewidth = 0.1
+    ) +
     theme_minimal() +
     theme(
         # legend.position = "none",
-        panel.background = element_rect(color = "black"),
+        panel.background = element_rect(color = "black", fill = background_color),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
@@ -246,7 +290,7 @@ ggplot(data = postal_codes_coord) +
 
 That was it for administrative division, but more can be downloaded from DAWA if you want to. 
 
-## Plotting healthcare institutions: 
+## Individual level healthcare institutions: 
 
 First the SHAK codes: 
 
@@ -258,8 +302,8 @@ First the SHAK codes:
     ggplot() +
     geom_polygon(
         mapping = aes(x = X, y = Y, group = group_id),
-        fill = "deepskyblue4",
-        color = "white",
+        fill = denmark_fill,
+        color = denmark_color,
         linewidth = 0.2
     ) +
     geom_point(
@@ -274,14 +318,17 @@ First the SHAK codes:
     theme_minimal() +
     theme(
         # legend.position = "none",
-        panel.background = element_rect(color = "black", fill = "#f8f5ef"),
+        panel.background = element_rect(
+            color = "black",
+            fill = background_color
+        ),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
         axis.title = element_blank()
     ) +
     guides(fill = guide_legend(
-        ncol = 2,
+        ncol = 1,
         keyheight = unit(0.2, "cm"),
         theme = theme(legend.text = element_text(size = 4))
     )))
@@ -297,8 +344,8 @@ municipality_coord |>
     ggplot() +
     geom_polygon(
         mapping = aes(x = X, y = Y, group = group_id),
-        fill = "deepskyblue4",
-        color = "white",
+        fill = denmark_fill,
+        color = denmark_color,
         linewidth = 0.3
     ) +
     geom_point(
@@ -313,14 +360,14 @@ municipality_coord |>
     theme_minimal() +
     theme(
         # legend.position = "none",
-        panel.background = element_rect(color = "black", fill = "#f8f5ef"),
+        panel.background = element_rect(color = "black", fill = background_color),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
         axis.title = element_blank()
     ) +
     guides(fill = guide_legend(
-        ncol = 2,
+        ncol = 1,
         keyheight = unit(0.2, "cm"),
         theme = theme(legend.text = element_text(size = 4))
     ))
@@ -329,16 +376,16 @@ municipality_coord |>
 
 And the SOR-codes: 
 
-
 ```{r}
 #| echo: false
+
 
 (regions_coord |>
     ggplot() +
     geom_polygon(
         mapping = aes(x = X, y = Y, group = group_id),
-        fill = "deepskyblue4",
-        color = "white",
+        fill = denmark_fill,
+        color = denmark_color,
         linewidth = 0.3
     ) +
     geom_point(
@@ -353,7 +400,70 @@ And the SOR-codes:
     theme_minimal() +
     theme(
         # legend.position = "none",
-        panel.background = element_rect(color = "black", fill = "#f8f5ef"),
+        panel.background = element_rect(color = "black", fill = background_color),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    ) +
+    guides(fill = guide_legend(ncol = 1)))
+
+# Now for facetted wrap
+(regions_coord |>
+    ggplot() +
+    geom_polygon(
+        mapping = aes(x = X, y = Y, group = group_id),
+        fill = denmark_fill,
+        color = denmark_color,
+        linewidth = 0.3
+    ) +
+    geom_point(
+        data = sor_coords,
+        mapping = aes(x = X, y = Y, fill = SOR_type),
+        shape = 21,
+        alpha = 0.7,
+        size = 1,
+        stroke = 0.3
+    ) +
+    scale_fill_paletteer_d("tvthemes::AirNomads") +
+    theme_minimal() +
+    theme(
+        # legend.position = "none",
+        panel.background = element_rect(color = "black", fill = background_color),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    ) +
+    guides(fill = guide_legend(ncol = 1))) +
+    facet_wrap(~SOR_type)
+
+```
+
+### Aggregated level Health Institutions: 
+
+I only do it for 30 municipalities because the computations are big for matching all shak with all areas - but it can be done on the server if transferred. 
+
+```{r}
+#| echo: false
+
+
+(muni_shak_count_coords |>
+    ggplot() +
+    geom_polygon(
+        mapping = aes(
+            x = X,
+            y = Y,
+            group = group_id,
+            fill = n
+        ),
+        color = denmark_color,
+        linewidth = 0.3
+    ) +
+    theme_minimal() +
+    theme(
+        # legend.position = "none",
+        panel.background = element_rect(color = "black", fill = background_color),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
