@@ -60,6 +60,8 @@ Some examples of:
 #| include: false
 #|
 
+set.seed(463)
+
 # Data Denmark
 denmark_g <- sf::st_read("data/denmark.geojson")
 denmark_coord <- as_tibble(st_coordinates(denmark_g)) |>
