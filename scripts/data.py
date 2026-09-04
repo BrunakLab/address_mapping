@@ -170,14 +170,13 @@ yder_adresse = (pl_sor_rel
     .with_columns(pl.col('end_coord_x').str.replace_all(',', '.').cast(pl.Float32), 
                   pl.col('end_coord_y').str.replace_all(',', '.').cast(pl.Float32))
     .select(['SHAK_code', 'Unit_type', 'Unit_name', 'SOR_code', 'Ydernummer', 'end_coord_x', 'end_coord_y', 'end_postnummer', 'end_region'])
-    .drop_nulls())
+    .filter(pl.col('end_coord_y').is_not_null()))
 
 list_coords = [] 
 for x,y in zip(yder_adresse['end_coord_x'], yder_adresse['end_coord_y']): 
     list_coords.append(Point(x,y))
 
-yder_gdf = gpd.GeoDataFrame({'Ydernummer': yder_adresse['Ydernummer'], 
-                             'geometry':list_coords}, crs="EPSG:25832").to_crs("EPSG:4326")
+yder_gdf = gpd.GeoDataFrame(yder_adresse.to_pandas(), geometry = list_coords, crs="EPSG:25832").to_crs("EPSG:4326")
 
 yder_gdf.to_file('/home/jenswaaben/phd/software/adress_mapping/data/yder.geojson', driver = 'GeoJSON')
 

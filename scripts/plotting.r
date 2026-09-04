@@ -41,13 +41,16 @@ denmark_coord |>
     theme_minimal() +
     theme(
         legend.position = "none",
-        panel.background = element_rect(color = "black"),
+        panel.background = element_rect(color = NA),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
         axis.title = element_blank()
     ) +
-    scale_fill_paletteer_c("ggthemes::Orange-Blue Diverging")
+    scale_fill_paletteer_c("ggthemes::Orange-Blue Diverging") +
+    scale_y_continuous(expand = 0) +
+    scale_x_continuous(expand = 0) +
+    coord_fixed()
 
 # plotting regions:
 regions_g <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/regions.geojson") |>
@@ -68,7 +71,21 @@ regions_coord <- as_tibble(st_coordinates(regions_g)) |>
     ungroup()
 
 ggplot(data = regions_coord) +
-    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = navn))
+    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = navn)) +
+    theme_minimal() +
+    theme(
+        legend.position = "none",
+        panel.background = element_rect(color = NA),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    ) +
+    scale_fill_paletteer_d("MoMAColors::Alkalay2") +
+    scale_y_continuous(expand = 0) +
+    scale_x_continuous(expand = 0) +
+    coord_fixed()
+
 
 # Plotting municipality:
 municipality_g <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/municipality.geojson") |>
@@ -89,7 +106,21 @@ municipality_coord <- as_tibble(st_coordinates(municipality_g)) |>
     ungroup()
 
 ggplot(data = municipality_coord) +
-    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = navn))
+    geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = group_id)) +
+    theme_minimal() +
+    theme(
+        legend.position = "none",
+        panel.background = element_rect(color = NA),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank()
+    ) +
+    scale_fill_paletteer_c("ggthemes::Orange-Blue Diverging") +
+    scale_y_continuous(expand = 0) +
+    scale_x_continuous(expand = 0) +
+    coord_fixed()
+
 
 # And postal codes:
 postal_codes_g_empty <- sf::st_read("/home/jenswaaben/phd/software/adress_mapping/data/postal_codes.geojson")
@@ -150,7 +181,8 @@ p_denmark_yder <- municipality_coord |>
         panel.grid.minor = element_blank(),
         axis.text = element_blank(),
         axis.title = element_blank()
-    )
+    ) +
+    coord_fixed()
 
 ggsave(
     filename = "/home/jenswaaben/phd/software/adress_mapping/figures/denmark_yder.png",
@@ -242,3 +274,5 @@ ggsave(
     plot = plot_sor,
     dpi = 300
 )
+
+pharmacy_data <- read_tsv("data/list_pharmacies.tsv")

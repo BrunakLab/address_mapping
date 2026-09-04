@@ -1,0 +1,542 @@
+pharmacy_number;filial_number;pharmacy_name;address;postcode;city;pharmacy_types;ibnr;search_string;lattitude;longitude;found_address
+3;00;Viborg Svane Apotek;Lille Sct. Pedersstræde 10-12;8800;Viborg;Apotek;00300;Lille Sct. Pedersstræde 10-12, 8800;56.45210321;9.46094045;first postcode address
+3;01;Viborg Rådhus Apotek;Farvervej 2G;8800;Viborg;Filial frivillig;00301;Farvervej 2G, 8800;56.46071154;9.39833632;road
+3;02;Overlund Apotek;Randersvej 60;8800;Viborg;Filial frivillig;00302;Randersvej 60, 8800;56.4523945;9.44847411;road
+5;00;Kolding Løve Apotek;Gefionsvej 16;6000;Kolding;Apotek;00500;Gefionsvej 16, 6000;55.49071245;9.47339397;first postcode address
+5;01;Kolding Løve Apotek Storcenter;Skovvangen 42;6000;Kolding;Filial frivillig;00501;Skovvangen 42, 6000;55.51390792;9.46006627;road
+5;02;Løve Apoteket Vonsildvej;Vonsildvej 1G;6000;Kolding;Filial frivillig;00502;Vonsildvej 1G, 6000;55.46873374;9.47189806;road
+6;00;Århus Løve Apotek;Store Torv 5;8000;Århus C;Apotek;00600;Store Torv 5, 8000;56.15719167;10.2086289;road
+6;02;Aarhus Ø Apotek;Bernhard Jensens Boulevard 81;8000;Århus C;Filial frivillig;00602;Bernhard Jensens Boulevard 81, 8000;56.15385018;10.20713737;first postcode address
+7;00;Sorø Apotek;Storgade 19;4180;Sorø;Apotek;00700;Storgade 19, 4180;55.44722105;11.54524877;first postcode address
+7;01;Sorø Frederiksberg Apotek;Norgesvej 2;4180;Sorø;Filial frivillig;00701;Norgesvej 2, 4180;55.41532547;11.56242518;road
+7;02;Jernbaneapoteket i Slagelse;Sdr. Stationsvej 28;4200;Slagelse;Filial frivillig;00702;Sdr. Stationsvej 28, 4200;55.40720389;11.34813815;road
+8;00;Ribe Apotek;c/o Kvickly, Seminarievej 1;6760;Ribe;Apotek-tillægsbevilling;00800;c/o Kvickly, Seminarievej 1, 6760;55.32729453;8.76259524;first postcode address
+11;00;Randers Løve Apotek;Østervold 24;8900;Randers;Apotek;01100;Østervold 24, 8900;56.46073493;10.03905218;road
+11;01;Kristrup Apotek;Valdemarsvej 1 st.;8960;Randers SØ;Filial frivillig;01101;Valdemarsvej 1 st., 8960;56.44703163;10.05519289;road
+11;02;Hornbæk Løve Apotek;Viborgvej 102;8920;Randers NV;Filial frivillig;01102;Viborgvej 102, 8920;56.46660276;9.9950993;road
+11;03;Paderup Løve Apotek;Merkurvej 55;8960;Randers SØ;Filial frivillig;01103;Merkurvej 55, 8960;56.4296696;10.06398731;road
+12;00;Næstved Løve Apotek;Axeltorv 12;4700;Næstved;Apotek;01200;Axeltorv 12, 4700;55.23119285;11.758059;road
+12;01;Næstved Storcenter Apotek;Næstved Storcenter 45;4700;Næstved;Filial frivillig;01201;Næstved Storcenter 45, 4700;55.25327011;11.78062087;road
+12;02;Slagelse Løve Apotek;Jernbanegade 10;4200;Slagelse;Filial frivillig;01202;Jernbanegade 10, 4200;55.40536698;11.35373396;road
+12;03;Fensmark Løve Apotek;Holmegårdsvej 1A;4684;Holmegaard;Filial frivillig;01203;Holmegårdsvej 1A, 4684;55.28002022;11.8045365;road
+13;00;Nakskov Krone Apotek;Nygade 17-19;4900;Nakskov;Apotek-tillægsbevilling;01300;Nygade 17-19, 4900;54.83406541;11.11525387;first postcode address
+13;01;Havnegade Krone Apotek;Havnegade 69;4900;Nakskov;Filial frivillig;01301;Havnegade 69, 4900;54.82885863;11.13733259;road
+13;02;Sakskøbing Krone Apotek;Søndergade 11;4990;Sakskøbing;Filial frivillig;01302;Søndergade 11, 4990;54.7987089;11.63680012;road
+14;00;Køge Torvets Apotek;Brogade 1;4600;Køge;Apotek;01400;Brogade 1, 4600;55.45582308;12.18239556;road
+14;01;Solrød Apotek;Solrød Center 55;2680;Solrød Strand;Filial frivillig;01401;Solrød Center 55, 2680;55.53316786;12.2188896;road
+14;02;Køge Stations Apotek;Rådhusstræde 10G;4600;Køge;Filial frivillig;01402;Rådhusstræde 10G, 4600;55.45857879;12.18620037;road
+15;00;Løve Apoteket Lillebælt Løvbjerg;Strevelinsvej 11;7000;Fredericia;Apotek;01500;Strevelinsvej 11, 7000;55.53537657;9.7176853;road
+15;02;Fredericia Løve Apoteket Vestc.;Venusvej 10 B;7000;Fredericia;Filial frivillig;01502;Venusvej 10 B, 7000;55.5701272;9.75038789;first postcode address
+15;03;Middelfart Løve Apotek Kløvervej;Kløvervej 10-14;5500;Middelfart;Filial frivillig;01503;Kløvervej 10-14, 5500;55.50665211;9.72792501;first postcode address
+15;04;Middelfart Østergade Løve Apotek;Østergade 18;5500;Middelfart;Filial frivillig;01504;Østergade 18, 5500;55.50370753;9.73705905;road
+17;00;Roskilde Dom Apotek;Algade 51;4000;Roskilde;Apotek;01700;Algade 51, 4000;55.64067382;12.08924593;road
+17;07;Trekroner Løve Apotek;Trekroner Centervej 59-61;4000;Roskilde;Filial frivillig;01707;Trekroner Centervej 59-61, 4000;55.64140256;12.08433541;first postcode address
+18;00;Nykøbing F. Løve Apotek;Langgade 5;4800;Nykøbing Falster;Apotek;01800;Langgade 5, 4800;54.76734039;11.86712634;road
+18;01;Nysted Løve Apotek;Adelgade 13;4880;Nysted;Filial;01801;Adelgade 13, 4880;54.66899706;11.72876235;road
+18;04;Løve Apotek Maribo Ved Åen;Ved Åen 1;4930;Maribo;Filial frivillig;01804;Ved Åen 1, 4930;54.77571387;11.49272614;road
+18;05;Løve Apotek Rødby;Østergade 6;4970;Rødby;Filial frivillig;01805;Østergade 6, 4970;54.69554135;11.38808464;road
+19;00;Firkløver Apoteket Søndergade;Søndergade 37;8700;Horsens;Apotek-tillægsbevilling;01900;Søndergade 37, 8700;55.86197281;9.84939647;road
+19;01;Firkløver Apoteket Bankager;Bankagervej 111;8700;Horsens;Filial frivillig;01901;Bankagervej 111, 8700;55.83627212;9.83294215;road
+19;02;Firkløver Apoteket Stensballe;Sundgårdsvej 1;8700;Horsens;Filial frivillig;01902;Sundgårdsvej 1, 8700;55.87255984;9.90277252;road
+21;00;Kongelig Hof Apotek;St. Kongensgade 45;1264;København K;Apotek-tillægsbevilling;02100;St. Kongensgade 45, 1264;55.68324108;12.58664445;road
+22;00;Slagelse Svane Apotek;Jernbanegade 7;4200;Slagelse;Apotek;02200;Jernbanegade 7, 4200;55.40564266;11.35312384;road
+22;01;Antvorskov Apotek;Idagårdsvej 1;4200;Slagelse;Filial frivillig;02201;Idagårdsvej 1, 4200;55.39049222;11.35522781;road
+22;02;Ringsted Svane Apotek;Nørregade 13;4100;Ringsted;Filial frivillig;02202;Nørregade 13, 4100;55.44688821;11.78882578;road
+23;00;Kalundborg Svane Apotek;Elmegade 15;4400;Kalundborg;Apotek;02300;Elmegade 15, 4400;55.67881717;11.09726423;road
+24;00;Assens Apotek;Østergade 35;5610;Assens;Apotek;02400;Østergade 35, 5610;55.27008125;9.89748276;road
+24;01;Haarby Apotek;Algade 33;5683;Haarby;Påbudt filial under tilskudsnedtrapning;02401;Algade 33, 5683;55.22332032;10.12408626;road
+24;02;Glamsbjerg Apotek;Søndergade 70;5620;Glamsbjerg;Filial frivillig;02402;Søndergade 70, 5620;55.27357363;10.10725885;road
+25;00;Maribo Krone Apotek;Vestergade 1;4930;Maribo;Apotek;02500;Vestergade 1, 4930;54.77437832;11.50054815;road
+25;01;Torvegade Krone Apotek;Lollands Centret 36;4930;Maribo;Filial frivillig;02501;Lollands Centret 36, 4930;54.77397721;11.50582965;road
+26;00;Elefant Apoteket Holbæk;Ahlgade 17B;4300;Holbæk;Apotek-tillægsbevilling;02600;Ahlgade 17B, 4300;55.71813608;11.70996275;road
+26;01;Elefant Apoteket Smedelundsgade;Smedelundsgade 33;4300;Holbæk;Filial frivillig;02601;Smedelundsgade 33, 4300;55.71401681;11.7163077;road
+27;00;Rudkøbing Apotek;Engdraget 1;5900;Rudkøbing;Apotek;02700;Engdraget 1, 5900;54.93477836;10.71550485;road
+27;01;Humble Apotek;Hovedgaden 2;5932;Humble;Filial;02701;Hovedgaden 2, 5932;54.82636684;10.69893006;road
+28;00;Stege Apotek;Vasen 3;4780;Stege;Apotek;02800;Vasen 3, 4780;54.98118736;12.28168574;road
+29;00;Christianshavns Apotek;Torvegade 47;1400;København K;Apotek;02900;Torvegade 47, 1400;55.67234437;12.59192559;road
+29;03;Islands Brygge Apotek;Thorshavnsgade 28, st. tv.;2300;København S;Filial frivillig;02903;Thorshavnsgade 28, st. tv., 2300;55.66701126;12.57816961;road
+29;04;Fields Apotek;Arne Jacobsens Allé 12;2300;København S;Filial frivillig;02904;Arne Jacobsens Allé 12, 2300;55.63099889;12.57589255;road
+30;00;Holstebro Løveapotek;Store Torv 8;7500;Holstebro;Apotek;03000;Store Torv 8, 7500;56.35796151;8.61733726;road
+31;00;Vaisenhus Apotek;Landemærket 3-5;1119;København K;Apotek-tillægsbevilling;03100;Landemærket 3-5, 1119;55.6816951;12.57565321;road
+32;00;Vordingborg Apotek;Voldgade 20;4760;Vordingborg;Apotek-tillægsbevilling;03200;Voldgade 20, 4760;55.00955989;11.9090831;road
+32;01;Lundby Apotek;Lundby Hovedgade 90;4750;Lundby;Filial;03201;Lundby Hovedgade 90, 4750;55.10900221;11.87640186;road
+34;00;Faaborg Løve Apotek;Herregårdscentret 6;5600;Faaborg;Apotek-tillægsbevilling;03400;Herregårdscentret 6, 5600;55.10062494;10.24004331;road
+34;01;Marstal Apotek;Kongensgade 28;5960;Marstal;Filial;03401;Kongensgade 28, 5960;54.85540029;10.51779925;road
+35;00;Svendborg Løve Apotek;Vestergade 16;5700;Svendborg;Apotek;03500;Vestergade 16, 5700;55.05943398;10.60476261;road
+35;01;Hesselager Apotek;Langgade 20;5874;Hesselager;Filial;03501;Langgade 20, 5874;55.16929274;10.7341255;road
+35;02;Løve Apoteket Svendborg Øst;Møllergade 92-96;5700;Svendborg;Filial frivillig;03502;Møllergade 92-96, 5700;55.07835242;10.58107726;first postcode address
+36;00;Vejle Løve Apotek;Søndergade 29;7100;Vejle;Apotek;03600;Søndergade 29, 7100;55.70607871;9.53280116;road
+37;00;Grenaa Apotek;Kannikegade 12;8500;Grenaa;Apotek;03700;Kannikegade 12, 8500;56.41217007;10.87635685;road
+37;01;Kattegat Apotek;Østerbrogade 41;8500;Grenaa;Filial frivillig;03701;Østerbrogade 41, 8500;56.41405137;10.88613019;road
+37;02;Fregat Apotek;Østeralle 16;8400;Ebeltoft;Filial frivillig;03702;Østeralle 16, 8400;56.19611668;10.68038564;road
+38;00;Ringkøbing Løve Apotek;Torvegade 5B;6950;Ringkøbing;Apotek;03800;Torvegade 5B, 6950;56.09064841;8.24218565;road
+38;01;Videbæk Apotek;Bredgade 32;6920;Videbæk;Filial;03801;Bredgade 32, 6920;56.09133201;8.63059982;road
+38;02;Søndervig Løve Apotek;Badevej 1;6950;Ringkøbing;Filial frivillig;03802;Badevej 1, 6950;56.11890514;8.11644296;road
+39;00;Thisted Svane Apotek;Kalkengen 4;7700;Thisted;Apotek;03900;Kalkengen 4, 7700;56.96924322;8.68713573;road
+39;01;Fjerritslev Apotek;Østergade  11-13;9690;Fjerritslev;Filial;03901;Østergade  11-13, 9690;57.08594213;9.26625551;first postcode address
+39;02;Apoteket Lille Torv Thisted;Torvegade 3, st;7700;Thisted;Filial frivillig;03902;Torvegade 3, st, 7700;56.95519282;8.69128482;road
+42;00;Rønne Apotek;Store Torvegade 12;3700;Rønne;Apotek-tillægsbevilling;04200;Store Torvegade 12, 3700;55.1036186;14.69950036;road
+43;00;Korsør Apotek;Havnearkaderne 19;4220;Korsør;Apotek;04300;Havnearkaderne 19, 4220;55.33083896;11.13936237;road
+43;01;Klosterparkens Apotek;Klosterparks Allé 10;4100;Ringsted;Filial frivillig;04301;Klosterparks Allé 10, 4100;55.45351161;11.78806905;road
+44;00;Hillerød Frederiksborg Apotek;Slotsarkaderne 122;3400;Hillerød;Apotek-tillægsbevilling;04400;Slotsarkaderne 122, 3400;55.92959252;12.29887695;road
+45;00;Hjørring Løve Apotek;Østergade 7A;9800;Hjørring;Apotek;04500;Østergade 7A, 9800;57.45974903;9.98819504;road
+45;01;Hjørring Hjorte Apotek;Frederikshavnsvej 44;9800;Hjørring;Filial frivillig;04501;Frederikshavnsvej 44, 9800;57.4551863;10.0060901;road
+47;00;Middelfart Apotek;Jernbanegade 2c;5500;Middelfart;Apotek;04700;Jernbanegade 2c, 5500;55.50412033;9.73436684;road
+47;02;Haderslev Krone Apotek;Bredgade 12;6100;Haderslev;Filial frivillig;04702;Bredgade 12, 6100;55.25484904;9.48257974;road
+47;03;Kolding Krone Apotek;Domhusgade 6;6000;Kolding;Filial frivillig;04703;Domhusgade 6, 6000;55.48425212;9.47918818;road
+51;00;Varde Apotek;Vestergade 3;6800;Varde;Apotek;05100;Vestergade 3, 6800;55.62082151;8.47965017;road
+51;01;Varde Østervold Apotek;Østervold 5;6800;Varde;Filial frivillig;05101;Østervold 5, 6800;55.6237299;8.48268922;road
+51;02;Oksbøl apotek;Vestergade 14;6840;Oksbøl;Filial frivillig;05102;Vestergade 14, 6840;55.62535652;8.27816966;road
+52;00;Kerteminde Apotek;Hans Schackvej 2;5300;Kerteminde;Apotek-tillægsbevilling;05200;Hans Schackvej 2, 5300;55.45398848;10.63940423;first postcode address
+52;02;Munkebo Apotek;Bycentret 103;5330;Munkebo;Filial frivillig;05202;Bycentret 103, 5330;55.45982588;10.55779053;road
+53;00;Skive Løve Apotek;Posthustorvet 1a;7800;Skive;Apotek;05300;Posthustorvet 1a, 7800;56.56532809;9.02639602;road
+53;01;Skive Løve Apotek City Vest;Holstebrovej 68b;7800;Skive;Filial frivillig;05301;Holstebrovej 68b, 7800;56.56933249;9.00509847;road
+53;02;Sct. Mathias Apotek;Sct. Mathias Centret;8800;Viborg;Filial frivillig;05302;Sct. Mathias Centret, 8800;56.44849663;9.40556036;road
+53;03;Nyholm Apotek;Nyholmsvej 20;7500;Holstebro;Filial frivillig;05303;Nyholmsvej 20, 7500;56.35732471;8.63361195;first postcode address
+53;04;Balling Apotek;Vestergade 1, Balling;7860;Spøttrup;Filial;05304;Vestergade 1, Balling, 7860;56.61376638;8.87902915;road
+54;00;Hobro Apotek;Adelgade 18;9500;Hobro;Apotek;05400;Adelgade 18, 9500;56.63938773;9.79326508;road
+58;00;Skælskør Apotek;Algade 21;4230;Skælskør;Apotek;05800;Algade 21, 4230;55.25374599;11.29423634;road
+59;00;Lyngby Svane Apotek;Lyngby Hovedgade 27;2800;Kongens Lyngby;Apotek;05900;Lyngby Hovedgade 27, 2800;55.77153116;12.50252659;road
+60;00;Stilling Apotek;Hotelvej 7;8660;Skanderborg;Apotek-tillægsbevilling;06000;Hotelvej 7, 8660;56.06145085;9.98535543;road
+60;06;Skanderborg Apotek;Adelgade 61;8660;Skanderborg;Filial frivillig;06006;Adelgade 61, 8660;56.03337501;9.93170384;road
+62;00;Elefant Apoteket Nykøbing;Algade 20;4500;Nykøbing Sjælland;Apotek;06200;Algade 20, 4500;55.92218147;11.66812203;road
+63;00;Aalborg Løve Apotek;Nytorv 3;9000;Aalborg;Apotek;06300;Nytorv 3, 9000;57.04868169;9.9225871;road
+63;02;Kennedy Apotek;John F. Kennedys Plads 1E, st.;9000;Aalborg;Filial frivillig;06302;John F. Kennedys Plads 1E, st., 9000;57.04232839;9.91903979;road
+64;00;Lemvig Apotek;Vasen 6, Postboks 79;7620;Lemvig;Apotek;06400;Vasen 6, Postboks 79, 7620;56.55491828;8.31621109;first postcode address
+64;01;Ulfborg Apotek;Bredgade 9;6990;Ulfborg;Filial;06401;Bredgade 9, 6990;56.27217111;8.32218408;road
+64;02;Bøvlingbjerg Apotek;Fårevej 143;7650;Bøvlingbjerg;Filial;06402;Fårevej 143, 7650;56.43858014;8.20224666;road
+66;00;Frederikshavn Løve Apotek;Hangaardsvej 7;9900;Frederikshavn;Apotek;06600;Hangaardsvej 7, 9900;57.43871596;10.53416919;road
+66;01;Fladstrand Apotek;H. C. Ørsteds Vej 5;9900;Frederikshavn;Filial frivillig;06601;H. C. Ørsteds Vej 5, 9900;57.44485699;10.497059;road
+66;02;Skagen Apotek;Sct. Laurentiivej 44;9990;Skagen;Filial;06602;Sct. Laurentiivej 44, 9990;57.73522112;10.59139453;first postcode address
+67;00;Stevns Apotek;Nytorv 5;4660;Store Heddinge;Apotek;06700;Nytorv 5, 4660;55.30977301;12.38783598;road
+67;01;Karise Apotek;Syrenvænget 20;4653;Karise;Filial;06701;Syrenvænget 20, 4653;55.30377106;12.1993318;road
+67;03;Søndre Kyst Apotek;Søndre Molevej 12A;4600;Køge;Filial frivillig;06703;Søndre Molevej 12A, 4600;55.45219041;12.19542233;road
+67;04;Apoteket Postbyen;Posten 4C, 1. 1;1577;København V;Filial frivillig;06704;Posten 4C, 1. 1, 1577;55.66588582;12.56597124;first postcode address
+68;00;Frederikssund Apotek;Nygade 1;3600;Frederikssund;Apotek;06800;Nygade 1, 3600;55.83651456;12.06505042;road
+68;01;Slangerup Apotek;Kongensgade 14A;3550;Slangerup;Filial frivillig;06801;Kongensgade 14A, 3550;55.84590591;12.17193911;road
+68;02;Fjord Apoteket Frederikssund;Kalvøvej 2A;3600;Frederikssund;Filial frivillig;06802;Kalvøvej 2A, 3600;55.83615638;12.05827975;road
+69;00;Sæby Apotek;Søndergade 7;9300;Sæby;Apotek;06900;Søndergade 7, 9300;57.33491494;10.52044419;road
+69;01;Østervrå Apotek;Industrivej 10;9750;Øster Vrå;Filial;06901;Industrivej 10, 9750;57.34056518;10.23849827;road
+70;00;Ebeltoft Apotek;Bryggerivej 4;8400;Ebeltoft;Apotek-tillægsbevilling;07000;Bryggerivej 4, 8400;56.19965392;10.68106421;road
+70;01;Kolind Apotek;Drasbeksgade 16;8560;Kolind;Filial;07001;Drasbeksgade 16, 8560;56.36266845;10.58845263;road
+70;02;Rønde Apotek;Ceresvej 16;8410;Rønde;Filial frivillig;07002;Ceresvej 16, 8410;56.30046654;10.47898728;road
+77;00;Ringsted Apotek;Sct. Hansgade 23;4100;Ringsted;Apotek;07700;Sct. Hansgade 23, 4100;55.44422556;11.79145125;road
+77;02;Roskilde Stations Apotek;Stationscentret 12;4000;Roskilde;Filial frivillig;07702;Stationscentret 12, 4000;55.63761256;12.08364363;road
+78;00;Herning Løve Apotek;Bredgade 45;7400;Herning;Apotek;07800;Bredgade 45, 7400;56.13610723;8.96986071;road
+78;02;Dæmningens Apotek;Dæmningen 17;7400;Herning;Filial frivillig;07802;Dæmningen 17, 7400;56.13251379;8.96088497;road
+79;00;Hørsholm Apotek;Hørsholm Midtpunkt 78;2970;Hørsholm;Apotek;07900;Hørsholm Midtpunkt 78, 2970;55.88252688;12.49756007;road
+79;01;Nivå Apotek;Nivå Center 72;2990;Nivå;Filial frivillig;07901;Nivå Center 72, 2990;55.93475671;12.50427831;road
+79;02;Apoteket Egevangen;Egevangen 8;2980;Kokkedal;Filial frivillig;07902;Egevangen 8, 2980;55.9061414;12.47494612;road
+79;03;Kongevejens Apotek;Usserød Kongevej 65 B;2970;Hørsholm;Filial frivillig;07903;Usserød Kongevej 65 B, 2970;55.88638037;12.47165678;first postcode address
+79;04;Rungsted Apotek;Rungsted Bytorv;2960;Rungsted Kyst;Filial frivillig;07904;Rungsted Bytorv, 2960;55.88348217;12.52859772;road
+80;00;Frederiksværk Apotek;Nørregade 4;3300;Frederiksværk;Apotek;08000;Nørregade 4, 3300;55.97321712;12.02165362;road
+80;01;Hundested Apotek;Nørregade 11;3390;Hundested;Filial;08001;Nørregade 11, 3390;55.96508147;11.85106557;road
+80;02;Halsnæs Apotek;Torvet 35, Kvickly;3300;Frederiksværk;Filial frivillig;08002;Torvet 35, Kvickly, 3300;55.97783812;12.01001954;first postcode address
+81;00;Rødby Krone Apotek;Havnegade 11;4970;Rødby;Apotek-tillægsbevilling;08100;Havnegade 11, 4970;54.65986037;11.35511145;road
+82;00;Nexø Apotek;Sdr. Hammer 4A;3730;Nexø;Apotek;08200;Sdr. Hammer 4A, 3730;55.06193696;15.13441258;road
+82;01;Allinge Apotek;Kirkegade 13;3770;Allinge;Filial;08201;Kirkegade 13, 3770;55.27711605;14.80228914;road
+86;00;Præstø Apotek;Svend Gønges Torv 12;4720;Præstø;Apotek;08600;Svend Gønges Torv 12, 4720;55.12194211;12.04014929;road
+87;00;Hammel Frijsenborg Apotek;Østergade 1;8450;Hammel;Apotek-tillægsbevilling;08700;Østergade 1, 8450;56.25593717;9.86531561;road
+88;00;Grindsted Apotek;Borgergade 29;7200;Grindsted;Apotek-tillægsbevilling;08800;Borgergade 29, 7200;55.75626069;8.931128;road
+88;01;Billund Apotek;Gammelbro 74A;7190;Billund;Filial frivillig;08801;Gammelbro 74A, 7190;55.72925932;9.11563184;road
+88;02;Grindsted Lyng Apotek;Vestergade 34;7200;Grindsted;Filial frivillig;08802;Vestergade 34, 7200;55.75923809;8.9222817;road
+89;00;Silkeborg Ørne Apotek;Vestergade 9A;8600;Silkeborg;Apotek-tillægsbevilling;08900;Vestergade 9A, 8600;56.16883243;9.54821032;road
+90;00;Nørrebro Apotek;Nørrebrogade 8;2200;København N;Apotek;09000;Nørrebrogade 8, 2200;55.68746235;12.56233038;road
+91;00;Ringe Apotek;Torvet 5;5750;Ringe;Apotek-tillægsbevilling;09100;Torvet 5, 5750;55.2372047;10.47976972;road
+92;00;Nørresundby Apotek;Torvet 3A;9400;Nørresundby;Apotek;09200;Torvet 3A, 9400;57.05867635;9.9231242;road
+92;01;Lindholm Apotek;Lindholm Nærbanevej 1D;9400;Nørresundby;Filial frivillig;09201;Lindholm Nærbanevej 1D, 9400;57.06334348;9.93033817;first postcode address
+92;02;Vodskov Apotek;Vodskovvej 41;9310;Vodskov;Filial frivillig;09202;Vodskovvej 41, 9310;57.10470357;10.02950803;road
+92;03;Solsidens Apotek;Vestergade 30;9400;Nørresundby;Filial frivillig;09203;Vestergade 30, 9400;57.05970951;9.91815853;road
+96;00;Odder Apotek;Rosensgade 14;8300;Odder;Apotek;09600;Rosensgade 14, 8300;55.97253068;10.14743408;road
+96;01;Samsø Apotek;Langgade 6, Tranebjerg;8305;Samsø;Filial;09601;Langgade 6, Tranebjerg, 8305;55.83185188;10.59474295;road
+96;02;Malling Apotek;Stationspladsen 5;8340;Malling;Filial frivillig;09602;Stationspladsen 5, 8340;56.03817153;10.19127653;road
+96;03;Apoteket Nørregade - Odder;Nørregade 6;8300;Odder;Filial frivillig;09603;Nørregade 6, 8300;55.97451696;10.14864985;road
+96;04;Solbjerg Apotek;Elleskovvej 11, st. tv.;8355;Solbjerg;Filial frivillig;09604;Elleskovvej 11, st. tv., 8355;56.04457159;10.08303623;road
+98;00;Tarm Apotek;Storegade 27;6880;Tarm;Apotek;09800;Storegade 27, 6880;55.90713247;8.52098401;road
+98;01;Ølgod Apotek;Torvet 4;6870;Ølgod;Filial;09801;Torvet 4, 6870;55.80749431;8.61991918;road
+100;00;Haslev Apotek;Jernbanegade 11;4690;Haslev;Apotek;10000;Jernbanegade 11, 4690;55.32889891;11.96352676;road
+101;00;Firkløver Apoteket Brædstrup;Søndergade 32;8740;Brædstrup;Apotek;10100;Søndergade 32, 8740;55.97002462;9.61022592;road
+101;01;Firkløver Apoteket Østbirk;H.C. Andersensvej 2A;8752;Østbirk;Filial;10101;H.C. Andersensvej 2A, 8752;55.96882929;9.74955327;road
+101;02;Firkløver Apoteket Horsens;Høegh Guldbergs Gade 10;8700;Horsens;Filial frivillig;10102;Høegh Guldbergs Gade 10, 8700;55.85727261;9.85253764;road
+104;00;Hornslet Apotek;Byvej 8;8543;Hornslet;Apotek;10400;Byvej 8, 8543;56.31648537;10.32040242;road
+104;01;Auning Apotek;Centervej 13;8963;Auning;Filial;10401;Centervej 13, 8963;56.43146797;10.37396697;road
+104;02;Løgten Apotek;Bytorvet 1 A;8541;Skødstrup;Filial frivillig;10402;Bytorvet 1 A, 8541;56.25879641;10.29673686;first postcode address
+105;00;Aabybro Apotek;Østergade 36;9440;Aabybro;Apotek;10500;Østergade 36, 9440;57.1594593;9.73261473;road
+105;01;Brovst Apotek;Østergade  16;9460;Brovst;Filial;10501;Østergade  16, 9460;57.09729309;9.52483612;road
+105;02;Løkken Apotek;Søndergade 15;9480;Løkken;Filial;10502;Søndergade 15, 9480;57.34954802;9.70000459;first postcode address
+105;03;Pandrup Apotek;Bredgade 3;9490;Pandrup;Filial frivillig;10503;Bredgade 3, 9490;57.2249416;9.6773659;road
+109;00;Glostrup Apotek;Hovedvejen 101;2600;Glostrup;Apotek;10900;Hovedvejen 101, 2600;55.66565754;12.39653796;road
+109;01;Apoteket Glostrup Shoppingcenter;Glostrup Shoppingcenter 48;2600;Glostrup;Filial frivillig;10901;Glostrup Shoppingcenter 48, 2600;55.66548675;12.40057165;road
+111;00;Frederiksberg Apotek;Gammel Kongevej 162;1850;Frederiksberg C;Apotek;11100;Gammel Kongevej 162, 1850;55.67378702;12.55407778;first postcode address
+111;01;Apoteket Frederiksberg Centret;Falkoner Alle 21, 2 sal;2000;Frederiksberg;Filial frivillig;11101;Falkoner Alle 21, 2 sal, 2000;55.67504706;12.53221607;first postcode address
+112;00;Kjellerup Apotek;Bryggerstræde 5;8620;Kjellerup;Apotek;11200;Bryggerstræde 5, 8620;56.28867629;9.43116379;road
+112;01;Søtorvet Apotek;Søtorvet 6;8600;Silkeborg;Filial frivillig;11201;Søtorvet 6, 8600;56.17229068;9.55404788;road
+113;00;Gilleleje Apotek;Vesterbrogade 6B;3250;Gilleleje;Apotek;11300;Vesterbrogade 6B, 3250;56.12581677;12.30434197;road
+113;01;Hornbæk Apotek;Sauntevej 2;3100;Hornbæk;Filial frivillig;11301;Sauntevej 2, 3100;56.0912383;12.41418879;first postcode address
+115;00;Give Apotek;Østergade 8-14;7323;Give;Apotek;11500;Østergade 8-14, 7323;55.84709964;9.24717414;first postcode address
+115;01;Brande Apotek;Storegade 13, Postboks 29;7330;Brande;Filial;11501;Storegade 13, Postboks 29, 7330;55.94524698;9.13441348;first postcode address
+115;02;Jelling Apotek;Gorms Torv 5;7300;Jelling;Filial frivillig;11502;Gorms Torv 5, 7300;55.7554575;9.41799551;road
+115;03;Havne Apotek;Windfeld-Hansensgade 3;7100;Vejle;Filial frivillig;11503;Windfeld-Hansensgade 3, 7100;55.71450648;9.53186406;first postcode address
+116;00;Elefant Apoteket Jyderup;Skarridsøgade 35A-B;4450;Jyderup;Apotek-tillægsbevilling;11600;Skarridsøgade 35A-B, 4450;55.65755055;11.40728703;first postcode address
+118;00;Horsens Svane Apotek;Grønlandsvej 1 D;8700;Horsens;Apotek;11800;Grønlandsvej 1 D, 8700;55.87170701;9.84494181;first postcode address
+119;00;Hvalsø Apotek;Roskildevej 4;4330;Hvalsø;Apotek;11900;Roskildevej 4, 4330;55.5895841;11.8638878;road
+119;01;Tølløse Apotek;Vestergade 70;4340;Tølløse;Filial frivillig;11901;Vestergade 70, 4340;55.61206677;11.76385713;road
+121;00;Otterup Apotek;Nørregade 2;5450;Otterup;Apotek;12100;Nørregade 2, 5450;55.51529838;10.39832958;road
+121;01;Søndersø Apotek;Toftekær 2;5471;Søndersø;Filial;12101;Toftekær 2, 5471;55.4819276;10.25262941;road
+121;02;Bogense Apotek;Vestergade 9;5400;Bogense;Filial frivillig;12102;Vestergade 9, 5400;55.56457245;10.08815426;road
+122;00;Egtved Apotek;Aftensang 8K;6040;Egtved;Apotek-tillægsbevilling;12200;Aftensang 8K, 6040;55.61963405;9.30734379;road
+123;00;Odense Bellinge Apotek;Elmegårdsvej 2;5250;Odense SV;Apotek-tillægsbevilling;12300;Elmegårdsvej 2, 5250;55.33690388;10.31561588;road
+123;01;Tommerup Apotek;Tallerupvej 24;5690;Tommerup;Filial frivillig;12301;Tallerupvej 24, 5690;55.34689548;10.18108729;road
+123;02;Apoteket Dalumcentret;Dalumvej 46;5250;Odense SV;Filial frivillig;12302;Dalumvej 46, 5250;55.37069192;10.3725607;road
+124;00;Nørre Nebel Apotek;Bredgade 45;6830;Nørre Nebel;Apotek-tillægsbevilling;12400;Bredgade 45, 6830;55.77913252;8.29066396;road
+129;00;Galten Apotek;Torvet 3;8464;Galten;Apotek-tillægsbevilling;12900;Torvet 3, 8464;56.15513218;9.90417968;road
+130;00;Skibby Apotek;Hovedgaden 40;4050;Skibby;Apotek;13000;Hovedgaden 40, 4050;55.75145499;11.95936247;road
+130;02;Jægerspris Fasan Apotek;Møllehegnet 2A;3630;Jægerspris;Filial frivillig;13002;Møllehegnet 2A, 3630;55.85033155;11.98545273;road
+131;00;Viborg Løve Apotek;Koldingvej 130;8800;Viborg;Apotek;13100;Koldingvej 130, 8800;56.43030027;9.38762633;road
+131;01;Hammershøj Apotek;Randersvej 8;8830;Tjele;Filial;13101;Randersvej 8, 8830;56.49937784;9.75185749;road
+131;02;Engelsborg Apotek;Fabrikvej 2;8800;Viborg;Filial frivillig;13102;Fabrikvej 2, 8800;56.46679864;9.40000489;road
+131;03;Hjultorvets Apotek;Sct. Mathias Gade 66 st. 2;8800;Viborg;Filial frivillig;13103;Sct. Mathias Gade 66 st. 2, 8800;56.44956433;9.40849348;road
+132;00;Århus Jernbane Apotek;Banegårdspladsen 8;8000;Århus C;Apotek;13200;Banegårdspladsen 8, 8000;56.15081172;10.20405399;road
+132;01;Risskov Apotek;Nordre Strandvej 15D;8240;Risskov;Filial frivillig;13201;Nordre Strandvej 15D, 8240;56.19220417;10.24144303;road
+134;00;Sct. Stefans Apotek;Nørrebrogade 140;2200;København N;Apotek-tillægsbevilling;13400;Nørrebrogade 140, 2200;55.69469475;12.54883604;road
+136;00;Nykøbing F. Svane Apotek;Slotsbryggen 1-3;4800;Nykøbing Falster;Apotek;13600;Slotsbryggen 1-3, 4800;54.77254969;11.86457615;road
+136;01;Guldborgsund Svane Apotek;Guldborgsundcentret 23;4800;Nykøbing Falster;Filial frivillig;13601;Guldborgsundcentret 23, 4800;54.75886547;11.85463199;road
+137;00;Glumsø Apotek;Østergade 8;4171;Glumsø;Apotek-tillægsbevilling;13700;Østergade 8, 4171;55.35293085;11.69225226;road
+137;01;Fuglebjerg Apotek;Byagervej 6 A;4250;Fuglebjerg;Filial;13701;Byagervej 6 A, 4250;55.30282927;11.54403408;first postcode address
+138;00;Nærum Apotek;Nærum Vænge Torv 35;2850;Nærum;Apotek;13800;Nærum Vænge Torv 35, 2850;55.81521727;12.53934754;first postcode address
+143;00;Roslev Apotek;Jernbanegade 17;7870;Roslev;Apotek;14300;Jernbanegade 17, 7870;56.70029027;8.99034839;first postcode address
+144;00;Dronninglund Apotek;Slotsgade 64;9330;Dronninglund;Apotek;14400;Slotsgade 64, 9330;57.15926856;10.28956521;road
+144;01;Hals Apotek;Havnegade 7A;9370;Hals;Filial;14401;Havnegade 7A, 9370;56.99330344;10.30727178;road
+144;02;Hjallerup Apotek;Søndergade 6;9320;Hjallerup;Filial frivillig;14402;Søndergade 6, 9320;57.16861467;10.14537492;road
+145;00;Bjerringbro Apotek;Nørregade 4;8850;Bjerringbro;Apotek;14500;Nørregade 4, 8850;56.37525896;9.65846556;road
+145;01;Langå Apotek;Bredgade 18;8870;Langå;Filial frivillig;14501;Bredgade 18, 8870;56.39042735;9.89512474;road
+150;00;Struer Apotek;Østergade 11;7600;Struer;Apotek;15000;Østergade 11, 7600;56.49214444;8.59338792;road
+151;00;Odense Sct. Knuds Apotek;Torvegade 8;5000;Odense C;Apotek;15100;Torvegade 8, 5000;55.39668322;10.39016984;road
+151;01;Odense Apoteket Rosengården;Ørbækvej 75;5220;Odense SØ;Filial frivillig;15101;Ørbækvej 75, 5220;55.38248793;10.42808455;road
+152;00;Langeskov Apotek;Langeskov Centret 27;5550;Langeskov;Apotek;15200;Langeskov Centret 27, 5550;55.36055862;10.58760567;road
+152;01;Ørbæk Apotek;Nyborgvej 2;5853;Ørbæk;Filial;15201;Nyborgvej 2, 5853;55.25858353;10.67328786;road
+152;02;Niels Bohrs Allé's Apotek;Niels Bohrs Allé 150;5230;Odense M;Filial frivillig;15202;Niels Bohrs Allé 150, 5230;55.37704772;10.43201273;road
+152;03;Apoteket Odense Banegård;Østre Stationsvej 27;5000;Odense C;Filial frivillig;15203;Østre Stationsvej 27, 5000;55.40116414;10.38783423;road
+152;04;Vestergade Apotek;Vestergade 28;5800;Nyborg;Filial frivillig;15204;Vestergade 28, 5800;55.31677722;10.79024822;road
+154;00;Espergærde Apotek;Nørremarken 3;3060;Espergærde;Apotek;15400;Nørremarken 3, 3060;55.98495492;12.54024304;first postcode address
+154;01;Humlebæk Apotek;Humlebæk Center 23;3050;Humlebæk;Filial frivillig;15401;Humlebæk Center 23, 3050;55.9640055;12.52998151;road
+154;02;Fredensborg Apotek;Jernbanegade 5;3480;Fredensborg;Filial;15402;Jernbanegade 5, 3480;55.97873966;12.39972947;road
+156;00;Fønix Apoteket - Tørring;Bredgade 19;7160;Tørring;Apotek;15600;Bredgade 19, 7160;55.85039545;9.48081457;road
+156;01;Fønix Apoteket - Nørre Snede;Bredgade 22;8766;Nørre Snede;Filial;15601;Bredgade 22, 8766;55.96743501;9.39155037;first postcode address
+159;00;Charlottenlund Apotek;Lindegårdsvej 51;2920;Charlottenlund;Apotek-tillægsbevilling;15900;Lindegårdsvej 51, 2920;55.75463048;12.5697512;road
+161;00;Svendborg Sct. Nicolai Apotek;Gerritsgade 7;5700;Svendborg;Apotek-tillægsbevilling;16100;Gerritsgade 7, 5700;55.05885426;10.60878161;road
+161;01;Vester-Skerninge Apotek;Fåborgvej 40;5762;Vester Skerninge;Filial;16101;Fåborgvej 40, 5762;55.07420802;10.45432377;road
+161;02;Sct. Nicolai Apotek Vest;c/o Kvickly Storcenter;5700;Svendborg;Filial frivillig;16102;c/o Kvickly Storcenter, 5700;55.07835242;10.58107726;first postcode address
+164;00;Hadsten Apotek;Vesselbjergvej 8;8370;Hadsten;Apotek;16400;Vesselbjergvej 8, 8370;56.32823207;10.0478215;road
+164;01;Hinnerup Apotek;Storegade 5;8382;Hinnerup;Filial;16401;Storegade 5, 8382;56.26403801;10.06206626;road
+166;00;Horsens Løve Apotek;Nørretorv 2;8700;Horsens;Apotek-tillægsbevilling;16600;Nørretorv 2, 8700;55.86800575;9.84543178;road
+166;01;Hovedgård Apotek;Ørridslevvej 1;8732;Hovedgård;Filial;16601;Ørridslevvej 1, 8732;55.93813771;9.9558584;road
+169;00;Slagelse Rådhus Apotek;Smedegade 6;4200;Slagelse;Apotek-tillægsbevilling;16900;Smedegade 6, 4200;55.40457005;11.35703294;road
+170;00;Roskilde Svane Apotek;Skomagergade 19;4000;Roskilde;Apotek;17000;Skomagergade 19, 4000;55.64077846;12.07780119;road
+170;05;Køgevejens Apotek;Roskildevænget 2 B;4000;Roskilde;Filial frivillig;17005;Roskildevænget 2 B, 4000;55.64140256;12.08433541;first postcode address
+170;06;Svogerslev Apotek;Svogerslev Hovedgade 78;4000;Roskilde;Filial frivillig;17006;Svogerslev Hovedgade 78, 4000;55.64140256;12.08433541;first postcode address
+172;00;Brønderslev Apotek;P. Møllers Plads 10;9700;Brønderslev;Apotek;17200;P. Møllers Plads 10, 9700;57.27961852;9.95386207;first postcode address
+172;01;Vrå Apotek;Jernbanegade 6;9760;Vrå;Filial;17201;Jernbanegade 6, 9760;57.3539698;9.94217025;road
+172;02;Brønderslev Løve Apotek;Løvbjerg Arkaden 14;9700;Brønderslev;Filial frivillig;17202;Løvbjerg Arkaden 14, 9700;57.27961852;9.95386207;first postcode address
+176;00;Sejlflod Apotek;Rødhøjvej 2;9280;Storvorde;Apotek;17600;Rødhøjvej 2, 9280;57.0001148;10.10104438;road
+176;01;Skalborg Apotek;Otto Mønsteds Vej 1;9200;Aalborg SV;Filial frivillig;17601;Otto Mønsteds Vej 1, 9200;57.01499655;9.89404969;road
+176;02;Universitets Apotek Aalborg;Niels Bohrs Vej 44;9220;Aalborg Øst;Filial frivillig;17602;Niels Bohrs Vej 44, 9220;57.01795137;9.99321485;road
+177;00;Odense Albani Apotek;Albanigade 54 F;5000;Odense C;Apotek;17700;Albanigade 54 F, 5000;55.41249949;10.40244131;first postcode address
+177;01;Næsby Apotek;Bogensevej 33A, st.;5270;Odense N;Filial frivillig;17701;Bogensevej 33A, st., 5270;55.41826502;10.36064507;road
+177;02;Folkebo Apotek;Hjallesevej 201 tv.;5230;Odense M;Filial frivillig;17702;Hjallesevej 201 tv., 5230;55.37542859;10.39585496;road
+178;00;Århus Vejlby Apotek;Vejlbygade 16 A;8240;Risskov;Apotek;17800;Vejlbygade 16 A, 8240;56.19840472;10.25451202;first postcode address
+178;01;Lystrup Apotek;Lystrup Centervej 85;8520;Lystrup;Filial frivillig;17801;Lystrup Centervej 85, 8520;56.23768607;10.23426224;road
+178;02;Veri Apotek;Frijsenborgvej 5;8240;Risskov;Filial frivillig;17802;Frijsenborgvej 5, 8240;56.18872702;10.21526525;road
+178;03;Egå Apotek;Egå Havvej 2A;8250;Egå;Filial frivillig;17803;Egå Havvej 2A, 8250;56.23122171;10.29012881;first postcode address
+180;00;Borup Apotek;Hovedgaden 15;4140;Borup;Apotek;18000;Hovedgaden 15, 4140;55.49464729;11.97248996;road
+180;01;Bjæverskov Apotek;Ejbovej 33;4632;Bjæverskov;Filial frivillig;18001;Ejbovej 33, 4632;55.4612622;12.03593261;road
+180;02;Strøby Egede Apotek;Kystvejen 3 B;4600;Køge;Filial frivillig;18002;Kystvejen 3 B, 4600;55.44015256;12.17903863;first postcode address
+180;03;Viby Svane Apotek;Søndergade 8 A;4130;Viby Sjælland;Filial frivillig;18003;Søndergade 8 A, 4130;55.54497081;12.02575061;first postcode address
+180;04;Køge Løve Apotek;Vestergade 23;4600;Køge;Filial frivillig;18004;Vestergade 23, 4600;55.45726411;12.1782267;road
+181;00;Aalborg Budolfi Apotek;Algade 60;9000;Aalborg;Apotek;18100;Algade 60, 9000;57.04840736;9.91617933;road
+181;01;Nibe Apotek;Mellemgade 9;9240;Nibe;Filial;18101;Mellemgade 9, 9240;56.98251479;9.63806409;road
+181;02;Løgstør Apotek;Østerbrogade 1B;9670;Løgstør;Filial;18102;Østerbrogade 1B, 9670;56.96646765;9.25184374;road
+182;00;Hellerup Apotek;Strandvejen 161, st.;2900;Hellerup;Apotek;18200;Strandvejen 161, st., 2900;55.73194966;12.57553948;road
+182;01;Rotunden Apotek;Strandvejen 62E, St.;2900;Hellerup;Filial frivillig;18201;Strandvejen 62E, St., 2900;55.72748252;12.5768117;road
+182;02;Apoteket City2;Cityringen 24;2630;Taastrup;Filial frivillig;18202;Cityringen 24, 2630;55.64388905;12.2745463;road
+183;00;Steno Apotek;Vesterbrogade 6 C;1620;København V;Apotek;18300;Vesterbrogade 6 C, 1620;55.67578459;12.56710268;first postcode address
+184;00;Apoteket Godthåb;Godthåbsvej 4;2000;Frederiksberg;Apotek;18400;Godthåbsvej 4, 2000;55.68553791;12.53816114;road
+184;01;Apoteket Jernbane Allé;Jernbane Allé 40;2720;Vanløse;Filial frivillig;18401;Jernbane Allé 40, 2720;55.6866057;12.49122768;road
+184;02;Apoteket Sundby;Englandsvej 28;2300;København S;Filial frivillig;18402;Englandsvej 28, 2300;55.65679611;12.60411706;road
+184;03;Apoteket Frederikssundsvej;Frederikssundsvej 60A;2400;København NV;Filial frivillig;18403;Frederikssundsvej 60A, 2400;55.70356413;12.52938679;road
+184;04;Hydehøj Apotek;Hyrdehøj Alle 5;4000;Roskilde;Filial frivillig;18404;Hyrdehøj Alle 5, 4000;55.63464291;12.0530273;road
+185;00;Smallegades Apotek;Smallegade 46;2000;Frederiksberg;Apotek-tillægsbevilling;18500;Smallegade 46, 2000;55.67967901;12.52373851;road
+188;00;Næstved Svane Apotek;Torvestræde 8;4700;Næstved;Apotek;18800;Torvestræde 8, 4700;55.23006417;11.76004513;road
+188;01;Sct. Jørgens Apotek;Sct. Jørgens Park 34;4700;Næstved;Filial frivillig;18801;Sct. Jørgens Park 34, 4700;55.2157996;11.75724096;road
+188;02;Kvægtorvets Apotek;Kvægtorvet 8;4700;Næstved;Filial frivillig;18802;Kvægtorvet 8, 4700;55.23292957;11.76121205;road
+189;00;Ejby Apotek;Algade 4;5592;Ejby;Apotek;18900;Algade 4, 5592;55.42906738;9.92893695;road
+189;01;Aarup Apotek;Bredgade 60;5560;Aarup;Påbudt filial under tilskudsnedtrapning;18901;Bredgade 60, 5560;55.3789224;10.04750076;road
+189;02;Vissenbjerg Apotek;Østergade 11;5492;Vissenbjerg;Filial frivillig;18902;Østergade 11, 5492;55.38516055;10.13665964;road
+189;03;Nr. Aaby Apotek;Grønnegade 12;5580;Nørre Aaby;Filial frivillig;18903;Grønnegade 12, 5580;55.4611145;9.87749113;road
+189;04;Strib Apotek;Sofiendalvej 10;5500;Middelfart;Filial frivillig;18904;Sofiendalvej 10, 5500;55.53239283;9.77631485;road
+191;00;Helsinge Apotek;Østergade 35;3200;Helsinge;Apotek;19100;Østergade 35, 3200;56.01976952;12.20368764;first postcode address
+191;01;Rådhusapoteket Helsinge;Frederiksborgvej 20;3200;Helsinge;Filial frivillig;19101;Frederiksborgvej 20, 3200;56.01968713;12.20026698;road
+195;00;Nørre Alslev Apotek;Apotekergade 1;4840;Nørre Alslev;Apotek;19500;Apotekergade 1, 4840;54.89867059;11.87917414;road
+195;01;Stubbekøbing Apotek;Vestergade 24 B;4850;Stubbekøbing;Filial;19501;Vestergade 24 B, 4850;54.88681673;12.03719416;first postcode address
+195;02;Valdemarsgade Apotek;Valdemarsgade 69;4760;Vordingborg;Filial frivillig;19502;Valdemarsgade 69, 4760;55.01083514;11.91267078;road
+197;00;Valby Apotek;Valby Langgade 49;2500;Valby;Apotek;19700;Valby Langgade 49, 2500;55.66652628;12.51694526;road
+197;01;Ryparken Apotek;Lyngbyvej 153;2100;København Ø;Filial frivillig;19701;Lyngbyvej 153, 2100;55.71798507;12.55650915;road
+198;00;Odense Sct. Hans Apotek;Skibhusvej 66;5000;Odense C;Apotek-tillægsbevilling;19800;Skibhusvej 66, 5000;55.40630946;10.39282647;road
+198;01;Vollsmose Apotek;Risingsvej 132;5240;Odense NØ;Filial frivillig;19801;Risingsvej 132, 5240;55.40640271;10.44019107;road
+199;00;Sønderbro Apotek;Amagerbrogade 158;2300;København S;Apotek;19900;Amagerbrogade 158, 2300;55.65473126;12.6101987;road
+200;00;Vejen Apotek;Mindevej 1;6600;Vejen;Apotek;20000;Mindevej 1, 6600;55.47488431;9.13800652;road
+200;01;Vejen Trolde Apotek;Rådhuspassagen 1;6600;Vejen;Filial frivillig;20001;Rådhuspassagen 1, 6600;55.47688206;9.13708671;road
+202;00;Øresunds Apotek;Østerbrogade 151;2100;København Ø;Apotek;20200;Østerbrogade 151, 2100;55.71409228;12.57728561;road
+202;01;Waterfront Apotek Hellerup;Shoppingcentret Waterfront;2900;Hellerup;Filial frivillig;20201;Shoppingcentret Waterfront, 2900;55.74068715;12.57545488;first postcode address
+204;00;Silkeborg Himmelbjerg Apotek;Borgergade 20;8600;Silkeborg;Apotek-tillægsbevilling;20400;Borgergade 20, 8600;56.17722952;9.5545496;road
+206;00;Fakse Apotek;Rønnedevej 15;4640;Fakse;Apotek-tillægsbevilling;20600;Rønnedevej 15, 4640;55.25561594;12.11618096;road
+206;01;Apotek Stationsvej;Stationsvej 1A;4681;Herfølge;Filial frivillig;20601;Stationsvej 1A, 4681;55.41712593;12.14094499;road
+207;00;Stenlille Apotek;Hovedgaden 48;4295;Stenlille;Apotek;20700;Hovedgaden 48, 4295;55.54005461;11.59095228;road
+207;01;Dianalund Apotek;Torvet  5;4293;Dianalund;Filial frivillig;20701;Torvet  5, 4293;55.52694302;11.49729001;road
+215;00;Gentofte Apotek;Gentoftegade 35;2820;Gentofte;Apotek-tillægsbevilling;21500;Gentoftegade 35, 2820;55.74736872;12.54122763;road
+216;00;Elefant Apoteket Asnæs;Asnæs Centret 7;4550;Asnæs;Apotek-tillægsbevilling;21600;Asnæs Centret 7, 4550;55.811989;11.50056138;road
+218;00;Hadsund Apotek;Storegade 23;9560;Hadsund;Apotek;21800;Storegade 23, 9560;56.71628145;10.11403267;road
+218;01;Mariager Apotek;Østergade 10;9550;Mariager;Filial;21801;Østergade 10, 9550;56.65150984;9.98361378;road
+218;02;Terndrup Apotek;Hadsundvej 7;9575;Terndrup;Filial frivillig;21802;Hadsundvej 7, 9575;56.81347331;10.05821131;road
+218;03;Apoteket Fyrkat;Thurøvej 9;9500;Hobro;Filial frivillig;21803;Thurøvej 9, 9500;56.62577498;9.8055888;road
+220;00;Skørping Apotek;Sverriggårdsvej 10;9520;Skørping;Apotek;22000;Sverriggårdsvej 10, 9520;56.83619033;9.88945745;road
+220;01;Støvring Apotek;Hobrovej 84;9530;Støvring;Filial;22001;Hobrovej 84, 9530;56.89005581;9.83693272;road
+220;03;Arden Apotek ;Skovvej 4;9510;Arden;Filial frivillig;22003;Skovvej 4, 9510;56.76955555;9.85860679;road
+223;00;Fredericia Krone Apotek;Prinsessegade 45-49;7000;Fredericia;Apotek-tillægsbevilling;22300;Prinsessegade 45-49, 7000;55.5701272;9.75038789;first postcode address
+223;01;Fredericia Krone Apotek - Nymarksvej;Nymarksvej 39 A;7000;Fredericia;Filial frivillig;22301;Nymarksvej 39 A, 7000;55.5701272;9.75038789;first postcode address
+223;02;Fredericia Krone Apotek - Fredericia Sundhedshus;Dronningensgade 97;7000;Fredericia;Filial frivillig;22302;Dronningensgade 97, 7000;55.5701272;9.75038789;first postcode address
+225;00;Ballerup Apotek;Centrumgaden 24-26;2750;Ballerup;Apotek;22500;Centrumgaden 24-26, 2750;55.73128804;12.36059465;first postcode address
+225;01;Måløv Apotek;Stationsvej 7;2760;Måløv;Filial frivillig;22501;Stationsvej 7, 2760;55.74855653;12.31869889;road
+225;02;Apoteket i Ballerup Centret;Ballerup-Centret 2, 1.3;2750;Ballerup;Filial frivillig;22502;Ballerup-Centret 2, 1.3, 2750;55.72898292;12.35585447;road
+225;03;Hedegårdens Apotek;Hedeparken 11K;2750;Ballerup;Filial frivillig;22503;Hedeparken 11K, 2750;55.71889834;12.35817927;road
+225;04;Smørum Apotek;Flodvej 75M;2765;Smørum;Filial frivillig;22504;Flodvej 75M, 2765;55.73267728;12.30505714;road
+232;00;Apoteket Trianglen;Nordre Frihavnsgade 3;2100;København Ø;Apotek-tillægsbevilling;23200;Nordre Frihavnsgade 3, 2100;55.70002402;12.57806852;road
+233;00;Esbjerg Neptun Apotek;Stormgade 2;6700;Esbjerg;Apotek;23300;Stormgade 2, 6700;55.46678341;8.44299557;road
+233;01;Sædding Apotek;Sædding Center;6710;Esbjerg V;Filial frivillig;23301;Sædding Center, 6710;55.53356684;8.35510803;first postcode address
+234;00;Vejle Gorms Apotek;Vestergade 29;7100;Vejle;Apotek;23400;Vestergade 29, 7100;55.71450648;9.53186406;first postcode address
+234;01;Vinddinggård Apotek;Vindinggård Center 7 B;7100;Vejle;Filial frivillig;23401;Vindinggård Center 7 B, 7100;55.71450648;9.53186406;first postcode address
+234;02;Bredballe Apotek;Bredballecenteret 12;7120;Vejle Øst;Filial frivillig;23402;Bredballecenteret 12, 7120;55.73304136;9.60001947;first postcode address
+238;00;Helsingør Stengades Apotek;Stengade 46;3000;Helsingør;Apotek;23800;Stengade 46, 3000;56.03792874;12.61477773;first postcode address
+239;00;Holbæk Løve Apotek;Labæk 4;4300;Holbæk;Apotek;23900;Labæk 4, 4300;55.71665294;11.71647951;road
+239;01;Slotscentret Apotek;Slotsvolden 7;4300;Holbæk;Filial frivillig;23901;Slotsvolden 7, 4300;55.71778893;11.7037582;road
+241;00;Århus Marselisborg Apotek;Rundhøj Torv 3;8270;Højbjerg;Apotek;24100;Rundhøj Torv 3, 8270;56.1296632;10.18839799;first postcode address
+241;01;Tranbjerg Apotek;Kirketorvet 6;8310;Tranbjerg Jylland;Filial frivillig;24101;Kirketorvet 6, 8310;56.09081527;10.13589077;road
+241;02;Beder Apotek;Byvej 2;8330;Beder;Filial frivillig;24102;Byvej 2, 8330;56.05893284;10.20653202;road
+241;03;Mega Syd Apotek;Ringvej Syd 100 E;8260;Viby Jylland;Filial frivillig;24103;Ringvej Syd 100 E, 8260;56.10956451;10.14782299;first postcode address
+241;04;Ry Apotek;Siimtoften 2;8680;Ry;Filial frivillig;24104;Siimtoften 2, 8680;56.09354301;9.75565491;road
+241;05;Hørning Apotek;Nørre Allé 38;8362;Hørning;Filial frivillig;24105;Nørre Allé 38, 8362;56.08680218;10.03810725;road
+241;06;Kridthøj Apotek;Olaf Rudes Vej 22;8270;Højbjerg;Filial frivillig;24106;Olaf Rudes Vej 22, 8270;56.11795119;10.1948576;road
+242;00;Apoteket Svalen;Nørrebrogade 224;2200;København N;Apotek-tillægsbevilling;24200;Nørrebrogade 224, 2200;55.70013916;12.54020343;road
+243;00;Amagerbro Apotek;Reberbanegade 3;2300;København S;Apotek;24300;Reberbanegade 3, 2300;55.66282948;12.60378756;road
+243;02;Kløvermarkens Apotek;Vermlandsgade 51;2300;København S;Filial frivillig;24302;Vermlandsgade 51, 2300;55.66828133;12.60688931;road
+243;03;Bella Apotek;Michael Strunges Vej 15;2300;København S;Filial frivillig;24303;Michael Strunges Vej 15, 2300;55.63794624;12.58168475;road
+246;00;Vildbjerg Apotek;Bredgade 33;7480;Vildbjerg;Apotek;24600;Bredgade 33, 7480;56.20080347;8.76759635;road
+246;01;Karup Apotek;Herningvej 2;7470;Karup Jylland;Filial;24601;Herningvej 2, 7470;56.30904931;9.16557083;road
+246;02;Aulum Apotek;Skolegade 2;7490;Aulum;Filial frivillig;24602;Skolegade 2, 7490;56.26567116;8.79711959;road
+247;00;Thisted Løve Apotek;Sydhavnsvej 11;7700;Thisted;Apotek;24700;Sydhavnsvej 11, 7700;56.95152582;8.69320884;road
+247;01;Hanstholm Apotek;Bytorvet 20;7730;Hanstholm;Filial frivillig;24701;Bytorvet 20, 7730;57.11295287;8.60676674;road
+248;00;Hedensted Apotek;Bytorvet 21 B;8722;Hedensted;Apotek;24800;Bytorvet 21 B, 8722;55.77499262;9.72119637;first postcode address
+248;01;Juelsminde Apotek;Søgade 3;7130;Juelsminde;Filial;24801;Søgade 3, 7130;55.7151505;10.01104858;road
+248;02;Løsning Apotek;Nørregade 2;8723;Løsning;Filial frivillig;24802;Nørregade 2, 8723;55.80416112;9.7016878;road
+249;00;Ikast Apotek;Østergade 15;7430;Ikast;Apotek-tillægsbevilling;24900;Østergade 15, 7430;56.13988048;9.15754188;road
+249;01;Ikast Apotek Vest;Vestergade 63;7430;Ikast;Filial frivillig;24901;Vestergade 63, 7430;56.09967905;9.20221583;first postcode address
+252;00;Tåstrup Apotek;Taastrup Hovedgade 60;2630;Taastrup;Apotek;25200;Taastrup Hovedgade 60, 2630;55.65025;12.30152477;road
+252;01;Hedehusene Apotek;Hovedgaden 423;2640;Hedehusene;Filial frivillig;25201;Hovedgaden 423, 2640;55.64945516;12.19980274;road
+252;03;Strandboulevarden Apotek Østerbro;Nordre Frihavnsgade 81 st. th.;2100;København Ø;Filial frivillig;25203;Nordre Frihavnsgade 81 st. th., 2100;55.70606286;12.55422353;first postcode address
+252;05;Nytorv Apotek Strøget;Frederiksberggade 1A st.;1459;København K;Filial frivillig;25205;Frederiksberggade 1A st., 1459;55.67761594;12.57209708;road
+252;06;Ishøj Lille Torv Apotek;Ishøj Lille Torv 1;2635;Ishøj;Filial frivillig;25206;Ishøj Lille Torv 1, 2635;55.6145818;12.3552043;road
+252;07;Trianglen Central Apotek;Trianglen 2;2100;København Ø;Filial frivillig;25207;Trianglen 2, 2100;55.69966617;12.5770811;road
+252;08;Lyngbyvej Apotek Østerbro;Lyngbyvej 38 st.;2100;København Ø;Filial frivillig;25208;Lyngbyvej 38 st., 2100;55.71015714;12.56118403;road
+252;09;Cityapoteket;Tommerupgade 41 st.;2630;Taastrup;Filial frivillig;25209;Tommerupgade 41 st., 2630;55.64543623;12.27975917;road
+253;00;Bramminge Apotek;Storegade 2;6740;Bramming;Apotek;25300;Storegade 2, 6740;55.46472835;8.70253762;road
+253;01;Holsted Apotek;Søndergade 16;6670;Holsted;Filial;25301;Søndergade 16, 6670;55.50996559;8.9169985;road
+253;02;Brørup Apotek;Søndergade 17;6650;Brørup;Filial;25302;Søndergade 17, 6650;55.48146676;9.018186;road
+253;03;Krone Apoteket Broen;Exnersgade 18, st. 15;6700;Esbjerg;Filial frivillig;25303;Exnersgade 18, st. 15, 6700;55.4654559;8.45887798;road
+254;00;Høng Apotek;Centervej 35;4270;Høng;Apotek;25400;Centervej 35, 4270;55.50430302;11.28894775;road
+254;01;Gørlev Apotek;Algade 29;4281;Gørlev;Filial frivillig;25401;Algade 29, 4281;55.53944395;11.2264092;road
+254;02;Kalundborg Krone Apotek;Bredgade 42;4400;Kalundborg;Filial frivillig;25402;Bredgade 42, 4400;55.6786471;11.09122975;road
+254;03;Slagelse Krone Apotek;Skovvejen 48;4200;Slagelse;Filial frivillig;25403;Skovvejen 48, 4200;55.40159527;11.37479011;road
+255;00;Aalborg Reberbane Apotek;Reberbanegade 25;9000;Aalborg;Apotek;25500;Reberbanegade 25, 9000;57.02930345;9.95249717;first postcode address
+255;01;Hasseris Apotek;Hasseris Bymidte 9;9000;Aalborg;Filial frivillig;25501;Hasseris Bymidte 9, 9000;57.03629211;9.88359808;road
+255;02;Skipperen Apotek;Vestre Alle 7;9000;Aalborg;Filial frivillig;25502;Vestre Alle 7, 9000;57.03338374;9.90747154;road
+259;00;Aars Apotek;Søndergade 34;9600;Aars;Apotek;25900;Søndergade 34, 9600;56.80207203;9.51942872;road
+259;01;Aalestrup Apotek;Jernbanegade 6;9620;Aalestrup;Filial;25901;Jernbanegade 6, 9620;56.69455274;9.49551912;road
+259;02;Farsø Apotek;Torvet 8;9640;Farsø;Filial;25902;Torvet 8, 9640;56.77126808;9.34014451;road
+271;00;Vejle Sct. Thomas Apotek;Nørretorv 1 B;7100;Vejle;Apotek;27100;Nørretorv 1 B, 7100;55.71450648;9.53186406;first postcode address
+271;01;Bramdrupdam Apotek;Centervej 5;6000;Kolding;Filial frivillig;27101;Centervej 5, 6000;55.52192657;9.47882773;road
+273;00;Skive Svane Apotek;Sdr. Boulevard 7;7800;Skive;Apotek;27300;Sdr. Boulevard 7, 7800;56.56374621;9.03014226;road
+273;01;Egeris Apotek;Kirke Allé 94;7800;Skive;Filial frivillig;27301;Kirke Allé 94, 7800;56.55199507;9.02970869;road
+273;02;Nørregades Apotek;Nørregade 32C;7800;Skive;Filial frivillig;27302;Nørregade 32C, 7800;56.56857879;9.02732523;road
+273;03;Stoholm Apotek;Vestergade 10;7850;Stoholm Jylland;Filial;27303;Vestergade 10, 7850;56.48574401;9.14910394;road
+274;00;Randers Jernbane Apotek;Vestertorv 2;8900;Randers;Apotek;27400;Vestertorv 2, 8900;56.46096479;10.0308794;road
+274;01;Apoteket Thors Bakke;Biografgade 3;8900;Randers;Filial frivillig;27401;Biografgade 3, 8900;56.4632682;10.03799032;road
+275;00;Holstebro Koala Apotek;Nørregade 58;7500;Holstebro;Apotek-tillægsbevilling;27500;Nørregade 58, 7500;56.36215255;8.61942532;road
+275;01;Vinderup Apotek;Søndergade 7;7830;Vinderup;Filial;27501;Søndergade 7, 7830;56.4811011;8.77935509;road
+276;00;Børkop Apotek;Ny Boder 16;7080;Børkop;Apotek-tillægsbevilling;27600;Ny Boder 16, 7080;55.64151083;9.65098577;road
+277;00;Hurup Apotek;Østre Allé 1;7760;Hurup Thy;Apotek;27700;Østre Allé 1, 7760;56.7496886;8.4227395;road
+278;00;Farum Apotek;Farum Bytorv 69;3520;Farum;Apotek;27800;Farum Bytorv 69, 3520;55.81465377;12.38168876;road
+278;01;Lynge Apotek;Lynge Bytorv 16;3540;Lynge;Filial frivillig;27801;Lynge Bytorv 16, 3540;55.83757252;12.2768837;road
+278;02;Nordhavn Apotek;Århusgade 163;2150;Nordhavn;Filial frivillig;27802;Århusgade 163, 2150;55.70787826;12.59600233;road
+281;00;Herning Østergades Apotek;Østergade 5;7400;Herning;Apotek;28100;Østergade 5, 7400;56.13634802;8.97601357;road
+281;01;Apoteket HerningCentret;Merkurvej 51;7400;Herning;Filial frivillig;28101;Merkurvej 51, 7400;56.130231;8.9364028;first postcode address
+281;02;Apoteket Porshøj;Fruehøjvej 41;7400;Herning;Filial frivillig;28102;Fruehøjvej 41, 7400;56.14462591;8.96061425;road
+282;00;Odense Apoteket Ørnen;Vestergade 80;5000;Odense C;Apotek;28200;Vestergade 80, 5000;55.39445189;10.38239449;road
+282;01;Apoteket Vesterbro Odense;Vesterbro 39-51;5000;Odense C;Filial frivillig;28201;Vesterbro 39-51, 5000;55.41249949;10.40244131;first postcode address
+282;02;Apoteket Havnen Odense;Havnegade 2D;5000;Odense C;Filial frivillig;28202;Havnegade 2D, 5000;55.40662483;10.38431639;road
+283;00;Holte Apotek;Holte Midtpunkt 20;2840;Holte;Apotek;28300;Holte Midtpunkt 20, 2840;55.81188706;12.47157103;road
+285;00;Sønderborg Jernbane Apotek;Jernbanegade 10;6400;Sønderborg;Apotek;28500;Jernbanegade 10, 6400;54.9103939;9.79318511;road
+285;01;Augustenborg Apotek;Storegade 41;6400;Sønderborg;Filial frivillig;28501;Storegade 41, 6400;54.9099129;9.82196915;first postcode address
+285;02;Apotek Borgen;Kastanie allé 3 st., dør 30;6400;Sønderborg;Filial frivillig;28502;Kastanie allé 3 st., dør 30, 6400;54.9099129;9.82196915;first postcode address
+286;00;Rødding Apotek;Kongevej 2;6630;Rødding;Apotek;28600;Kongevej 2, 6630;55.36900235;9.0595652;road
+286;01;Gram Apotek;Torvet 4;6510;Gram;Filial;28601;Torvet 4, 6510;55.28853439;9.04880468;road
+286;02;Vamdrup Apotek;Torvet 6;6580;Vamdrup;Filial;28602;Torvet 6, 6580;55.42594233;9.28324682;road
+286;03;Lunderskov Apotek;Iver Dahlsvej 4;6640;Lunderskov;Filial frivillig;28603;Iver Dahlsvej 4, 6640;55.48018524;9.2986699;road
+287;00;Aabenraa Svane Apotek;Opnørplads 1-3;6200;Aabenraa;Apotek;28700;Opnørplads 1-3, 6200;55.04351037;9.4224722;road
+287;01;Rødekro Apotek;Østergade 6;6230;Rødekro;Filial frivillig;28701;Østergade 6, 6230;55.06998023;9.33611432;road
+288;00;Aabenraa Løve Apotek;Madevej 9;6200;Aabenraa;Apotek;28800;Madevej 9, 6200;55.04369765;9.42053618;road
+289;00;Gråsten Apotek;Sundsnæs 13;6300;Gråsten;Apotek-tillægsbevilling;28900;Sundsnæs 13, 6300;54.91085677;9.58886606;road
+289;01;Broager Apotek;Storegade 6A;6310;Broager;Filial frivillig;28901;Storegade 6A, 6310;54.88953198;9.67410902;road
+291;00;Haderslev Hjorte Apotek;Bispebroen 2 B;6100;Haderslev;Apotek;29100;Bispebroen 2 B, 6100;55.24505835;9.49044717;first postcode address
+291;01;Christiansfeld Apotek;Lindegade 35 C;6070;Christiansfeld;Filial;29101;Lindegade 35 C, 6070;55.3536311;9.49634997;first postcode address
+291;03;Aabenraa Hjorte Apotek;Madevej 31;6200;Aabenraa;Filial frivillig;29103;Madevej 31, 6200;55.04581047;9.41994723;road
+292;00;Haderslev Løve Apotek;Jomfrustien 40;6100;Haderslev;Apotek-tillægsbevilling;29200;Jomfrustien 40, 6100;55.25056767;9.49668525;road
+295;00;Toftlund Apotek;Søndergade 2;6520;Toftlund;Apotek;29500;Søndergade 2, 6520;55.19252403;9.0638385;road
+295;01;Skærbæk Apotek;Storegade 40;6780;Skærbæk;Filial;29501;Storegade 40, 6780;55.15859585;8.76268915;road
+298;00;Sønderborg Løve Apotek Cent. Øst;Grundtvigs Allé 179;6400;Sønderborg;Apotek;29800;Grundtvigs Allé 179, 6400;54.92109518;9.80828516;road
+298;01;Nordborg Apotek;Storegade 28;6430;Nordborg;Filial;29801;Storegade 28, 6430;55.05752738;9.74528153;road
+298;02;Sønderborg Løve Apotek Perlegade;Perlegade 28;6400;Sønderborg;Filial frivillig;29802;Perlegade 28, 6400;54.91096945;9.79132054;road
+301;00;Tinglev Apotek;Jernbanegade 1;6360;Tinglev;Apotek-tillægsbevilling;30100;Jernbanegade 1, 6360;54.93659262;9.25723351;road
+301;01;Padborg Apotek;Bovvej 9;6330;Padborg;Filial;30101;Bovvej 9, 6330;54.82628974;9.36290822;road
+302;00;Tønder Løve Apotek;Plantagevej 40;6270;Tønder;Apotek;30200;Plantagevej 40, 6270;54.93948498;8.85519338;road
+302;01;Løgumkloster Apotek;Østergade 5 B;6240;Løgumkloster;Filial;30201;Østergade 5 B, 6240;55.06277401;8.95063303;first postcode address
+304;00;Ulve Apoteket-Kolding Sønderbro;Søndergade 7;6000;Kolding;Apotek;30400;Søndergade 7, 6000;55.48837694;9.47313752;road
+304;01;Ulve Apoteket - Munkebo;Palmealle 2;6000;Kolding;Filial frivillig;30401;Palmealle 2, 6000;55.50130289;9.45650522;road
+305;00;Skjern Apotek;Bredgade 44B;6900;Skjern;Apotek-tillægsbevilling;30500;Bredgade 44B, 6900;55.94699645;8.49440316;road
+306;00;Aalborg Vejgaard Apotek;Hadsundvej 33B;9000;Aalborg;Apotek;30600;Hadsundvej 33B, 9000;57.04177632;9.95120757;road
+306;01;Aalborg Ø, Fyrkilden;Fyrkildevej 7, st.;9220;Aalborg Øst;Filial frivillig;30601;Fyrkildevej 7, st., 9220;57.0265482;10.00403167;road
+309;00;Enghave Apotek;Enghave Plads 25;1670;København V;Apotek-tillægsbevilling;30900;Enghave Plads 25, 1670;55.66613338;12.54411559;road
+311;00;Vojens Apotek;Rådhuscentret 11 A;6500;Vojens;Apotek;31100;Rådhuscentret 11 A, 6500;55.24627193;9.29916637;first postcode address
+312;00;Søborg Apotek;Søborg Hovedgade 86;2860;Søborg;Apotek;31200;Søborg Hovedgade 86, 2860;55.73478648;12.51372858;road
+313;00;Frederikshavn Svane Apotek;Søndergade 1;9900;Frederikshavn;Apotek;31300;Søndergade 1, 9900;57.43712334;10.53410853;road
+313;01;Rådhusapoteket Frederikshavn;Rådhus Alle 83;9900;Frederikshavn;Filial frivillig;31301;Rådhus Alle 83, 9900;57.43901555;10.53162283;road
+314;00;Nykøbing Mors Sct. Clemens Apo;Algade 3;7900;Nykøbing Mors;Apotek;31400;Algade 3, 7900;56.7957183;8.86096928;road
+314;01;Øster Jølby Apotek;Doktor Lunds Vej 4;7950;Erslev;Filial;31401;Doktor Lunds Vej 4, 7950;56.83328963;8.71886237;road
+314;02;Roslev Apotek;Helsevænget 2;7870;Roslev;Filial;31402;Helsevænget 2, 7870;56.69994216;8.97733112;road
+316;00;Nyborg Apotek;Kongegade 8;5800;Nyborg;Apotek;31600;Kongegade 8, 5800;55.31150647;10.79002131;road
+318;00;Apoteket Trekroner;Vigerslev Alle 38;2500;Valby;Apotek;31800;Vigerslev Alle 38, 2500;55.66188407;12.51864149;road
+320;00;Østerbro Apotek;Østerbrogade 101;2100;København Ø;Apotek-tillægsbevilling;32000;Østerbrogade 101, 2100;55.70943177;12.57719576;road
+322;00;Husum Apotek;Frederikssundsvej 320;2700;Brønshøj;Apotek;32200;Frederikssundsvej 320, 2700;55.71199823;12.47255019;road
+322;01;Prøvestens Apotek;Birkedalsvej 7 - 9;3000;Helsingør;Filial frivillig;32201;Birkedalsvej 7 - 9, 3000;56.03792874;12.61477773;first postcode address
+322;02;Helsingør Bycenter Apotek;Helsingør Bycenter;3000;Helsingør;Filial frivillig;32202;Helsingør Bycenter, 3000;56.03792874;12.61477773;first postcode address
+322;03;Tingbjerg Apotek;Ruten 6;2700;Brønshøj;Filial frivillig;32203;Ruten 6, 2700;55.71837483;12.48258401;road
+323;00;Tårnby Apotek;Kamillevej 4;2770;Kastrup;Apotek-tillægsbevilling;32300;Kamillevej 4, 2770;55.63271387;12.62226345;road
+323;02;Gyldenrisparkens Apotek;Amagerbrogade 264;2300;København S;Filial frivillig;32302;Amagerbrogade 264, 2300;55.64254377;12.61579198;road
+323;04;Kongelundens Apotek;Kongelundsvej 364;2770;Kastrup;Filial frivillig;32304;Kongelundsvej 364, 2770;55.61020066;12.58429297;road
+325;00;Ordrup Apotek;Ordrupvej 80;2920;Charlottenlund;Apotek-tillægsbevilling;32500;Ordrupvej 80, 2920;55.76153541;12.57421889;road
+325;01;Jægersborg Allé Apotek;Jægersborg Alle 35, st.;2920;Charlottenlund;Filial frivillig;32501;Jægersborg Alle 35, st., 2920;55.75495838;12.56694656;road
+326;00;Randers Sønderbro Apotek;Dytmærsken 10;8900;Randers;Apotek;32600;Dytmærsken 10, 8900;56.45893143;10.03875952;road
+326;03;Randers Nord Apotek;Mariagervej 175;8920;Randers NV;Filial frivillig;32603;Mariagervej 175, 8920;56.48242314;10.02487524;road
+326;04;Aarhus Ceres Apotek;Ceres Allé 18;8000;Århus C;Filial frivillig;32604;Ceres Allé 18, 8000;56.15522461;10.18850571;road
+326;05;Randers Syd Apotek;Marsvej 30;8960;Randers SØ;Filial frivillig;32605;Marsvej 30, 8960;56.42807285;10.05937181;road
+327;00;Dalgas Boulevard Apotek;Dalgas Boulevard 91;2000;Frederiksberg;Apotek;32700;Dalgas Boulevard 91, 2000;55.68163331;12.51056324;road
+327;01;Apoteket Lille Bjørn;Nordens Plads 4A, stuen;2000;Frederiksberg;Filial frivillig;32701;Nordens Plads 4A, stuen, 2000;55.67504706;12.53221607;first postcode address
+331;00;Aarhus Viby Apotek;Viby Centret 15;8260;Viby Jylland;Apotek;33100;Viby Centret 15, 8260;56.10956451;10.14782299;first postcode address
+331;01;Storcenter Nord Apotek;Finlandsgade 17;8200;Århus N;Filial frivillig;33101;Finlandsgade 17, 8200;56.16935291;10.18877726;road
+332;00;Sydhavnsapoteket;Borgbjergvej 15;2450;København SV;Apotek-tillægsbevilling;33200;Borgbjergvej 15, 2450;55.64842374;12.55145089;first postcode address
+332;01;Sluseholmens Apotek;Sluseholmen 17;2450;København SV;Filial frivillig;33201;Sluseholmen 17, 2450;55.64555416;12.54755855;road
+337;00;Århus Åbyhøj Apotek;Haslevej 17;8230;Åbyhøj;Apotek;33700;Haslevej 17, 8230;56.15645814;10.16477275;road
+337;01;Hasle Apotek;Hasle Torv, Viborgvej 150;8210;Århus V;Filial frivillig;33701;Hasle Torv, Viborgvej 150, 8210;56.1762561;10.17394388;first postcode address
+337;02;Bruuns Apotek;Bruuns Galleri lm-nr. 1-433;8000;Århus C;Filial frivillig;33702;Bruuns Galleri lm-nr. 1-433, 8000;56.15385018;10.20713737;first postcode address
+337;03;Tilst Apotek;Agerøvej 7;8381;Tilst;Filial frivillig;33703;Agerøvej 7, 8381;56.18239567;10.10493212;road
+338;00;Linde Apoteket;Frederikssundsvej 152;2700;Brønshøj;Apotek;33800;Frederikssundsvej 152, 2700;55.70465855;12.50008718;road
+338;01;Høje Gladsaxe Apotek;Høje Gladsaxe Torv 2A;2860;Søborg;Filial frivillig;33801;Høje Gladsaxe Torv 2A, 2860;55.73000495;12.49784277;road
+339;00;Rødovre Apotek;Rødovre Centrum 1C, st.124;2610;Rødovre;Apotek;33900;Rødovre Centrum 1C, st.124, 2610;55.67968142;12.45496998;road
+339;01;Islev Apotek;Fortvej 5;2610;Rødovre;Filial frivillig;33901;Fortvej 5, 2610;55.69591584;12.45864329;road
+341;00;Apoteket Rosen;Tuborgvej 269;2400;København NV;Apotek;34100;Tuborgvej 269, 2400;55.71172855;12.53245043;road
+341;01;Hamlets Apotek;Hamletsgade 2;2200;København N;Filial frivillig;34101;Hamletsgade 2, 2200;55.70308768;12.54770758;road
+341;05;Husum Bypark Apotek;Frederikssundsvej 248;2700;Brønshøj;Filial frivillig;34105;Frederikssundsvej 248, 2700;55.71600356;12.46283718;first postcode address
+341;06;København Fasan Apotek;Nordre Fasanvej 25;2000;Frederiksberg;Filial frivillig;34106;Nordre Fasanvej 25, 2000;55.68151851;12.52230231;road
+342;00;Lyngby Løve Apotek;Jernbanepladsen 43;2800;Kongens Lyngby;Apotek;34200;Jernbanepladsen 43, 2800;55.76856213;12.50310795;road
+342;01;Lyngby Storcenter Apotek;Lyngby Storcenter st. dør 1;2800;Kongens Lyngby;Filial frivillig;34201;Lyngby Storcenter st. dør 1, 2800;55.76322559;12.50831056;first postcode address
+342;02;Sorgenfri Løve Apotek;Hummeltoftevej 16;2830;Virum;Filial frivillig;34202;Hummeltoftevej 16, 2830;55.78215957;12.48311701;road
+342;03;Apotek Spinderiet;Valby Torvegade 13;2500;Valby;Filial frivillig;34203;Valby Torvegade 13, 2500;55.66472182;12.5117172;road
+342;04;Apotek Vesterbro;Vesterbrogade 60;1620;København V;Filial frivillig;34204;Vesterbrogade 60, 1620;55.67269981;12.55328761;road
+342;05;Apotek Ørsted;H. C. Ørsteds Vej 38;1879;Frederiksberg C;Filial frivillig;34205;H. C. Ørsteds Vej 38, 1879;55.68005026;12.54871097;road
+342;07;Herlev Løve Apotek;Herlev Torv 2;2730;Herlev;Filial frivillig;34207;Herlev Torv 2, 2730;55.7236268;12.43925339;road
+342;09;Apotek Fisketorvet;Kalvebod Brygge 59;1560;København V;Filial frivillig;34209;Kalvebod Brygge 59, 1560;55.66273156;12.5614748;road
+343;00;Vanløse Løve Apotek;Vanløse Torv 1, st. 123;2720;Vanløse;Apotek;34300;Vanløse Torv 1, st. 123, 2720;55.68769145;12.49084783;road
+343;01;Frederiksberg Løve Apotek;Falkoner Alle 88;2000;Frederiksberg;Filial frivillig;34301;Falkoner Alle 88, 2000;55.68548051;12.53902879;road
+344;00;Silkeborg Svane Apotek;Torvet 9;8600;Silkeborg;Apotek;34400;Torvet 9, 8600;56.1698727;9.54994885;road
+344;01;Silkeborg Nørrevænget Apotek;Viborgvej 16D;8600;Silkeborg;Filial frivillig;34401;Viborgvej 16D, 8600;56.1859548;9.54400887;road
+344;02;Silkeborg Center Nord Apotek;Viborgvej 21B;8600;Silkeborg;Filial frivillig;34402;Viborgvej 21B, 8600;56.18518209;9.541522;road
+345;00;Odense Dalum Apotek;Dalumvej 34;5250;Odense SV;Apotek-tillægsbevilling;34500;Dalumvej 34, 5250;55.37213182;10.37065154;road
+346;00;Birkerød Apotek;Teglporten 27;3460;Birkerød;Apotek;34600;Teglporten 27, 3460;55.83856254;12.43169926;road
+346;01;Allerød Apotek;Allerød Stationsvej 9;3450;Allerød;Filial frivillig;34601;Allerød Stationsvej 9, 3450;55.87111844;12.3557591;road
+347;00;Århus Sct. Lukas Apotek;Frederiks Allé 178;8000;Århus C;Apotek-tillægsbevilling;34700;Frederiks Allé 178, 8000;56.14622082;10.1933313;road
+347;01;Skejby Apotek;Skelagervej 7;8200;Århus N;Filial frivillig;34701;Skelagervej 7, 8200;56.19424921;10.19448702;road
+347;02;Århus Trøjborg Apotek;Tordenskjoldsgade 30;8200;Århus N;Filial frivillig;34702;Tordenskjoldsgade 30, 8200;56.17072791;10.21645192;road
+348;00;Hvidovre Apotek;Hvidovrevej 178;2650;Hvidovre;Apotek-tillægsbevilling;34800;Hvidovrevej 178, 2650;55.65347032;12.4742952;road
+348;01;Bredalsparken Apotek;Hvidovrevej 322;2650;Hvidovre;Filial frivillig;34801;Hvidovrevej 322, 2650;55.63907478;12.47896764;road
+348;02;Hvidovre Hospital Privatapoteket;Kettegård Alle 30;2650;Hvidovre;Filial frivillig;34802;Kettegård Alle 30, 2650;55.64866917;12.47025185;road
+349;00;Virum Apotek;Frederiksdalsvej 73;2830;Virum;Apotek-tillægsbevilling;34900;Frederiksdalsvej 73, 2830;55.79531124;12.47301398;road
+350;00;Kastrup Apotek;Skottegården 2;2770;Kastrup;Apotek;35000;Skottegården 2, 2770;55.63769977;12.63515059;road
+350;01;Dragør Apotek;Dragør Center;2791;Dragør;Filial frivillig;35001;Dragør Center, 2791;55.58790749;12.65448157;first postcode address
+350;02;Lufthavns Apotek København;Lufthavnsboulevarden 6;2770;Kastrup;Filial frivillig;35002;Lufthavnsboulevarden 6, 2770;55.62951326;12.63936608;road
+350;03;Amager Strand Apotek;Strandlodsvej 41;2300;København S;Filial frivillig;35003;Strandlodsvej 41, 2300;55.66418086;12.62277306;road
+351;00;Herlev Apotek;Herlev Torv 13;2730;Herlev;Apotek;35100;Herlev Torv 13, 2730;55.72414148;12.43896377;road
+351;01;Hjortespring Apotek;Dildhaven 51;2730;Herlev;Filial frivillig;35101;Dildhaven 51, 2730;55.74272754;12.42333583;road
+352;00;Århus Stjerne Apotek;Stjernepladsen 12;8200;Århus N;Apotek-tillægsbevilling;35200;Stjernepladsen 12, 8200;56.17461856;10.20326412;road
+353;00;Bagsværd Apotek;Bagsværd Torv 6;2880;Bagsværd;Apotek-tillægsbevilling;35300;Bagsværd Torv 6, 2880;55.76156955;12.45230122;road
+354;00;Brøndbyøster Apotek;Nygårds Plads 29A;2605;Brøndby;Apotek;35400;Nygårds Plads 29A, 2605;55.66752279;12.43759503;road
+354;01;Brøndbyvester Apotek;Søndre Ringvej 41 F;2605;Brøndby;Filial frivillig;35401;Søndre Ringvej 41 F, 2605;55.64763185;12.37979689;first postcode address
+354;02;Rødovre Krone Apotek;Rødovre Centrum 1R, st. 6;2610;Rødovre;Filial frivillig;35402;Rødovre Centrum 1R, st. 6, 2610;55.67990408;12.45798323;road
+355;00;Friheden Apotek;Strandmarksvej 20;2650;Hvidovre;Apotek;35500;Strandmarksvej 20, 2650;55.62689099;12.48466083;road
+355;01;Brøndby Strand Apotek;Brøndby Strand Butikscenter 16;2660;Brøndby Strand;Filial frivillig;35501;Brøndby Strand Butikscenter 16, 2660;55.62765694;12.41673992;first postcode address
+355;02;Hvidovre Stationsapotek;Lauritz Olsens vej 1, st. dør 30;2650;Hvidovre;Filial frivillig;35502;Lauritz Olsens vej 1, st. dør 30, 2650;55.65399618;12.46353177;first postcode address
+355;04;Vallensbæk Apotek;Vallensbæk Stationstorv 60;2665;Vallensbæk Strand;Filial frivillig;35504;Vallensbæk Stationstorv 60, 2665;55.62323039;12.38882464;road
+356;00;Hirtshals Apotek;Jørgen Fibigersgade 18;9850;Hirtshals;Apotek;35600;Jørgen Fibigersgade 18, 9850;57.59049613;9.95997404;road
+356;01;Sindal Apotek;Vestergade 2 A;9870;Sindal;Filial;35601;Vestergade 2 A, 9870;57.46967134;10.20490811;first postcode address
+357;00;Odense Bolbro Apotek;Middelfartvej 129;5200;Odense V;Apotek-tillægsbevilling;35700;Middelfartvej 129, 5200;55.39409764;10.34776198;road
+357;01;Tarup Apotek;Rugvang 36-40;5210;Odense NV;Filial frivillig;35701;Rugvang 36-40, 5210;55.40982533;10.33923186;road
+357;02;Korup Apotek;Åbakkevej 67;5210;Odense NV;Filial frivillig;35702;Åbakkevej 67, 5210;55.4179487;10.27395798;road
+358;00;Buddinge Apotek;Søborg Hovedgade 201;2860;Søborg;Apotek-tillægsbevilling;35800;Søborg Hovedgade 201, 2860;55.74186577;12.49743821;road
+359;00;Albertslund Apotek;Bytorvet 5;2620;Albertslund;Apotek;35900;Bytorvet 5, 2620;55.65651397;12.35369458;road
+360;00;Skovlunde Apotek;Torvestrædet 2;2740;Skovlunde;Apotek;36000;Torvestrædet 2, 2740;55.72153079;12.40170185;road
+360;02;Apoteket Møllebro;Slangerupgade 50;3400;Hillerød;Filial frivillig;36002;Slangerupgade 50, 3400;55.92862373;12.29345427;road
+360;03;Bagsværd Svale Apotek;Bagsværd Hovedgade 126A;2880;Bagsværd;Filial frivillig;36003;Bagsværd Hovedgade 126A, 2880;55.76042584;12.45600863;road
+361;00;Aalborghus Apotek;Grønlands Torv;9210;Aalborg SØ;Apotek;36100;Grønlands Torv, 9210;57.02297341;9.94303011;road
+361;01;Aalborg Storcenter Apotek;Hobrovej 452;9200;Aalborg SV;Filial frivillig;36101;Hobrovej 452, 9200;57.00479614;9.87593478;road
+361;02;Svenstrup Apotek;Godthåbsvej 12;9230;Svenstrup Jylland;Filial frivillig;36102;Godthåbsvej 12, 9230;56.97245763;9.851756;road
+361;03;Slotsgade Apotek;Slotsgade 8-14;9000;Aalborg;Filial frivillig;36103;Slotsgade 8-14, 9000;57.02930345;9.95249717;first postcode address
+362;00;Værløse Apotek;Bymidten 13;3500;Værløse;Apotek;36200;Bymidten 13, 3500;55.78453868;12.3737177;road
+363;00;Esbjerg Jerne Apotek;Strandby Kirkevej 80;6705;Esbjerg Ø;Apotek;36300;Strandby Kirkevej 80, 6705;55.47881397;8.48016766;road
+363;01;Fanø Apotek;Hovedgaden 84, Nordby;6720;Fanø;Filial;36301;Hovedgaden 84, Nordby, 6720;55.44340575;8.40211751;road
+363;02;Hjerting Apotek;Bytoften 24;6710;Esbjerg V;Filial frivillig;36302;Bytoften 24, 6710;55.52646278;8.35819984;road
+363;03;Esbjerg City Nord Apotek;Stormgade 157;6715;Esbjerg N;Filial frivillig;36303;Stormgade 157, 6715;55.51109896;8.45638668;road
+364;00;Helsingør Axeltorvs Apotek;Groskenstræde 2 A;3000;Helsingør;Apotek;36400;Groskenstræde 2 A, 3000;56.03792874;12.61477773;first postcode address
+364;01;Ålsgårde Apotek;Ålsgårde Centret 5;3140;Ålsgårde;Filial frivillig;36401;Ålsgårde Centret 5, 3140;56.07681419;12.53798959;first postcode address
+364;02;Apoteket Gefion;Gefion Centret;3000;Helsingør;Filial frivillig;36402;Gefion Centret, 3000;56.03792874;12.61477773;first postcode address
+365;00;Hundige Apotek;Waves, Over Bølgen 19 B;2670;Greve;Apotek;36500;Waves, Over Bølgen 19 B, 2670;55.58266427;12.27244196;first postcode address
+365;01;Ishøj Apotek;Nørregade 12, Ishøj Bycenter;2635;Ishøj;Filial frivillig;36501;Nørregade 12, Ishøj Bycenter, 2635;55.62277193;12.25640278;first postcode address
+365;02;Plusapoteket Waves;Over Bølgen 3D, Waves;2670;Greve;Filial frivillig;36502;Over Bølgen 3D, Waves, 2670;55.58266427;12.27244196;first postcode address
+366;00;Århus City Vest Apotek;Gudrunsvej 7;8220;Brabrand;Apotek;36600;Gudrunsvej 7, 8220;56.1552641;10.13490718;road
+366;03;Langenæs Apotek;Skanderborgvej 18-24;8000;Århus C;Filial frivillig;36603;Skanderborgvej 18-24, 8000;56.15385018;10.20713737;first postcode address
+366;04;Højvang Apotek Skanderborg;Højvang Centret 1;8660;Skanderborg;Filial frivillig;36604;Højvang Centret 1, 8660;56.04382833;9.94725743;road
+366;05;Nørremark Apotek Vejle;Nørremark Center 10;7100;Vejle;Filial frivillig;36605;Nørremark Center 10, 7100;55.72053142;9.55936626;road
+367;00;Hillerød Krone Apotek;Helsingørgade 10;3400;Hillerød;Apotek;36700;Helsingørgade 10, 3400;55.94494339;12.24766529;first postcode address
+367;01;Ullerød Apotek;Frederiksværkgade 119;3400;Hillerød;Filial frivillig;36701;Frederiksværkgade 119, 3400;55.94494339;12.24766529;first postcode address
+367;02;Hillerød Øst Apotek;Fredskovhellet 1;3400;Hillerød;Filial frivillig;36702;Fredskovhellet 1, 3400;55.92816556;12.33716603;road
+368;00;Køge Boholte Apotek;Marksvinget 21;4600;Køge;Apotek;36800;Marksvinget 21, 4600;55.4479967;12.1645903;road
+368;01;Ølby Apotek;Ølbycenter 25;4600;Køge;Filial frivillig;36801;Ølbycenter 25, 4600;55.47874027;12.17503262;road
+368;02;Herfølge Apotek;Vordingborgvej 106;4681;Herfølge;Filial frivillig;36802;Vordingborgvej 106, 4681;55.41513149;12.14239488;first postcode address
+368;03;Rønnede Apotek;Vordingborgvej 517;4683;Rønnede;Filial frivillig;36803;Vordingborgvej 517, 4683;55.25921516;12.02185367;road
+369;00;Stenløse Apotek;Egedal Centret  2;3660;Stenløse;Apotek-tillægsbevilling;36900;Egedal Centret  2, 3660;55.76822038;12.19488939;road
+369;01;Ølstykke Apotek;Frederiksborgvej 9;3650;Ølstykke;Filial frivillig;36901;Frederiksborgvej 9, 3650;55.79060628;12.1556721;road
+369;02;Jyllinge Apotek;Jyllingecenteret 31;4040;Jyllinge;Filial frivillig;36902;Jyllingecenteret 31, 4040;55.76467042;12.10168522;first postcode address
+369;03;Egedal Apotek;Dr. Dagmars Vej 246;3650;Ølstykke;Filial frivillig;36903;Dr. Dagmars Vej 246, 3650;55.7808364;12.18708516;road
+369;04;Apoteket ROs Torv;Ro´s Torv 1, 210;4000;Roskilde;Filial frivillig;36904;Ro´s Torv 1, 210, 4000;55.64240104;12.10095059;road
+370;00;Greve Apotek;Greve Midtby Center 14B;2670;Greve;Apotek;37000;Greve Midtby Center 14B, 2670;55.58229704;12.29435485;road
+370;01;Havdrup Apotek;Møllemarken  8;4622;Havdrup;Filial frivillig;37001;Møllemarken  8, 4622;55.54376372;12.11526295;road
+370;02;Tune Apotek;Tune Center 3 B;4030;Tune;Filial frivillig;37002;Tune Center 3 B, 4030;55.59416129;12.18481091;first postcode address
+410;00;Gazelle Online Apotek;Møgelgårdsvej 6;8520;Lystrup;Internet-apotek;41000;Møgelgårdsvej 6, 8520;56.23094354;10.23955455;road
+411;00;Apopro Online Apotek;Kildebrøndevej 44A;2670;Greve;Internet-apotek;41100;Kildebrøndevej 44A, 2670;55.60273856;12.28888272;road
