@@ -33,13 +33,13 @@ for i, address in enumerate(address_series):
     r = requests.get(
         'https://api.danskadresseapi.dk/dawa/autocomplete',
         params={'q': address},
-        headers={'Authorization': f'Bearer sk_live_9cz1v8IyGMCki7HAmu79lL1t-rCbdWxBKB5uSjyaz-o'})
+        headers={'Authorization': f'Bearer api'})
     results = r.json()
     if results == []: 
         r = requests.get(
                 'https://api.danskadresseapi.dk/dawa/autocomplete',
                 params={'q': postcode_series[i]},
-                headers={'Authorization': f'Bearer sk_live_9cz1v8IyGMCki7HAmu79lL1t-rCbdWxBKB5uSjyaz-o'})
+                headers={'Authorization': f'Bearer api'})
         results = r.json()
         if results == []: 
             lattitude = pl.Null
