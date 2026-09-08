@@ -75,22 +75,22 @@ First of a simple plot of Denmark. The colors are just individual
 “blobs”.
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-3-1.png"
-width="2100" />
+width="3000" />
 
 Then the regions:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-4-1.png"
-width="2100" />
+width="3000" />
 
 The municipalities:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-5-1.png"
-width="2100" />
+width="3000" />
 
 The Postal code:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-6-1.png"
-width="2100" />
+width="3000" />
 
 That was it for administrative division, but more can be downloaded from
 DAWA if you want to.
@@ -100,20 +100,20 @@ DAWA if you want to.
 First the SHAK codes:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-7-1.png"
-width="2100" />
+width="3000" />
 
 Then the Ydelses codes:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-8-1.png"
-width="2100" />
+width="3000" />
 
 And the SOR-codes:
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-9-1.png"
-width="2100" />
+width="3000" />
 
-<img src="readme_files/figure-commonmark/unnamed-chunk-9-2.png"
-width="2100" />
+<img src="readme_files/figure-commonmark/unnamed-chunk-10-1.png"
+width="6000" />
 
 ### Aggregated level Health Institutions:
 
@@ -121,10 +121,10 @@ I only do it for 30 municipalities because the computations are big for
 matching all shak with all areas - but it can be done on the server if
 transferred.
 
-<img src="readme_files/figure-commonmark/unnamed-chunk-10-1.png"
-width="2100" />
+<img src="readme_files/figure-commonmark/unnamed-chunk-11-1.png"
+width="3000" />
 
 ### Pharmacies and populations:
 
-<img src="readme_files/figure-commonmark/unnamed-chunk-11-1.png"
-width="2100" />
+<img src="readme_files/figure-commonmark/unnamed-chunk-12-1.png"
+width="3000" />

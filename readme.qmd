@@ -7,6 +7,16 @@ library("plotly")
 library("purrr")
 library("paletteer")
 library("ggnewscale")
+library("jsonlite")
+
+info_file <- Sys.getenv("QUARTO_EXECUTE_INFO")
+info_file
+
+info_file <- Sys.getenv("QUARTO_EXECUTE_INFO")
+info <- fromJSON(info_file)
+# Access format information
+format_string <- info$format$identifier$`target-format`
+
 ```
 
 This folder contains the code I have used to generate maps that have the different hospitals etc in it. 
@@ -218,13 +228,12 @@ muni_shak_count_coords <- municipality_coord |>
     )) |>
     unnest()
 
-# 
-
 # common color settings:
 denmark_fill <- "deepskyblue4"
 denmark_color <- "white"
 denmark_color_2 <- "#EE964B"
 background_color <- "#FAF0CA"
+
 ```
 
 ### Plots of Denmark: 
@@ -233,6 +242,7 @@ First of a simple plot of Denmark. The colors are just individual "blobs".
 
 ```{r}
 #| echo: false
+#| fig-width: 10
 
 denmark_coord |>
     ggplot(mapping = aes(x = X, y = Y, group = group_id)) +
@@ -253,6 +263,7 @@ Then the regions:
 
 ```{r}
 #| echo: false
+#| fig-width: 10
 
 ggplot(data = regions_coord) +
     geom_polygon(
@@ -277,6 +288,7 @@ The municipalities:
 
 ```{r}
 #| echo: false
+#| fig-width: 10
 
 ggplot(data = municipality_coord) +
     geom_polygon(
@@ -299,6 +311,7 @@ The Postal code:
 
 ```{r}
 #| echo: false
+#| fig-width: 10
 
 ggplot(data = postal_codes_coord) +
     geom_polygon(
@@ -327,6 +340,8 @@ First the SHAK codes:
 
 ```{r}
 #| echo: false
+#| fig-width: 10
+
 
 regions_coord |>
     ggplot() +
@@ -362,13 +377,15 @@ regions_coord |>
         keyheight = unit(0.2, "cm"),
         theme = theme(legend.text = element_text(size = 4))
     )) + 
-    coord_fixed(
+    coord_fixed()
+
 ```
 
 Then the Ydelses codes: 
 
 ```{r}
 #| echo: false
+#| fig-width: 10
 
 municipality_coord |>
     ggplot() +
@@ -408,6 +425,7 @@ And the SOR-codes:
 
 ```{r}
 #| echo: false
+#| fig-width: 10
 
 (regions_coord |>
     ggplot() +
@@ -436,6 +454,13 @@ And the SOR-codes:
         axis.title = element_blank()
     ) +
     guides(fill = guide_legend(ncol = 1)) + coord_fixed() )
+
+
+```
+
+```{r}
+#| echo: false
+#| fig-width: 20
 
 # Now for facetted wrap
 (regions_coord |>
@@ -466,6 +491,7 @@ And the SOR-codes:
     ) + coord_fixed() + 
     guides(fill = guide_legend(ncol = 1))) +
     facet_wrap(~SOR_type, nrow = 2) 
+
 ```
 
 ### Aggregated level Health Institutions: 
@@ -474,6 +500,7 @@ I only do it for 30 municipalities because the computations are big for matching
 
 ```{r}
 #| echo: false
+#| fig-width: 10
 
 (muni_shak_count_coords |>
     ggplot() +
@@ -506,7 +533,7 @@ I only do it for 30 municipalities because the computations are big for matching
 
 ```{r}
 #| echo: false
-
+#| fig-width: 10
 
 pharm_plot <- ggplot(data = postal_codes_coord |> mutate(pop_per_sqkm  = scales::squish(pop_per_sqkm,  c(0, 20000)))) +
     geom_polygon(mapping = aes(x = X, y = Y, group = group_id, fill = pop_per_sqkm), color = "grey50", linewidth = 0.2) +
@@ -515,11 +542,11 @@ pharm_plot <- ggplot(data = postal_codes_coord |> mutate(pop_per_sqkm  = scales:
                          labels = scales::label_comma(big.mark = " ", accuracy = 0.1), 
                          colors = paletteer::paletteer_c("ggthemes::Orange-Blue-White Diverging", n = 3, direction = -1),
                          na.value = "#29567d", 
-                         name = "Population per km^2 (20 000 max)") + 
+                         name = "Population per km^2\n(20 000 max)") + 
     geom_point(data = pharmacy_data, 
                mapping = aes(x = longitude, y = lattitude), 
                shape = 21, 
-               size = 2, 
+               size = 1, 
                fill = "#f79cd4") + 
     theme_minimal() +
     theme(
@@ -531,11 +558,35 @@ pharm_plot <- ggplot(data = postal_codes_coord |> mutate(pop_per_sqkm  = scales:
     ) + 
     coord_fixed() + 
     scale_x_continuous(expand = 0) + 
-    scale_y_continuous(expand = 0) 
+    scale_y_continuous(expand = 0) + 
+    labs(title = "Pharmacy distribution in DK")
 
-plotly_obj <- ggplotly(pharm_plot)
 
+if (format_string == "html"){
+  plotly_obj <- ggplotly(pharm_plot)
+  id_filter <- postal_codes_coord |> distinct(group_id, postalcode_name, pop_per_sqkm)
+  named_list <- id_filter |> pull(postalcode_name)
+  pop_list <- id_filter |> pull(pop_per_sqkm)
+  names(named_list) <- id_filter |> pull(group_id)
+  pop_list <- purrr::map(.x = pop_list, .f = \(x) as.character(round(x)))
+  names(pop_list) <- id_filter |> pull(group_id)
+  
+  for (postcode in 1:(length(plotly_obj$x$data) - 2)){
+    gid <- str_extract(plotly_obj$x$data[[postcode]]$text, "[:digit:]+") 
+    name <- named_list[[as.character(gid)]]
+    pop <- pop_list[[as.character(gid)]]
+    string <- str_c(name, "\n", "Pop. per Km^2: ",  pop)
+    plotly_obj$x$data[[postcode]]$text <- string
+  }
+  
+  plotly_obj$x$data[[length(plotly_obj$x$data) - 1 ]]$text <- str_c(pharmacy_data$pharmacy_name, "\n",  pharmacy_data$city)
+  plotly_obj
 
-pharm_plot
+} else {
+  pharm_plot
+}
+
 
 ```
+
+

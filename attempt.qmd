@@ -1,0 +1,27 @@
+
+```{r}
+#| include: false
+library("ggplot2")
+library("tidyverse")
+library("sf")
+library("plotly")
+library("purrr")
+library("paletteer")
+library("ggnewscale")
+library("jsonlite")
+
+```
+
+```{r}
+
+info_file <- Sys.getenv("QUARTO_EXECUTE_INFO")
+info <- fromJSON(info_file)
+print(info)
+
+# Access document path
+info$`document-path`
+
+# Access format information
+info$format$identifier$`target-format`
+
+```
