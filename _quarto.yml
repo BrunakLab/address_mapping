@@ -1,6 +1,8 @@
 title: Geographical code mapping
 
-format: gfm
+format: 
+  gfm: default
+  html: default
 
 execute:
   fig-format: retina

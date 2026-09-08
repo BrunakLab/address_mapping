@@ -26,9 +26,13 @@ Important resources are:
     1.  https://sor-filer.sundhedsdata.dk/sor_produktion/data/shak/
 3.  SOR-codes - sundhedsvæsnets organisationsregister
     1.  https://sor-filer.sundhedsdata.dk/sor_produktion/data/sor/
-4.  DAWA - geographical information based on addresses
+4.  IBNR codes for pharmacies
+    1.  Addresses found via web API
+5.  DAWA - geographical information based on addresses
     1.  Used via API to find coordinate / municipality of a given
         address
+    2.  This is being removed and there is a new API but as I already
+        downloaded the data there is no now stuff
 
 ## Files:
 
@@ -46,7 +50,12 @@ have a lot of tools for working with the geometries.
 2.  coordinates.py
     1.  Adapts the loaded data and makes geojson files that contain
         stuff for plotting.
-3.  plotting.r
+3.  coordinates_new.py
+4.  dst.py
+    1.  Finds population sizes from statistics Denmark
+5.  data_adaptation.r
+    1.  Little changes with R to existing data-structures
+6.  plotting.r
     1.  Code for plotting the geojson in r. This includes code for
         loading the geojson and converting it to a tibble. This can also
         be done in python - although the geojsons can be directly loaded
@@ -113,4 +122,9 @@ matching all shak with all areas - but it can be done on the server if
 transferred.
 
 <img src="readme_files/figure-commonmark/unnamed-chunk-10-1.png"
+width="2100" />
+
+### Pharmacies and populations:
+
+<img src="readme_files/figure-commonmark/unnamed-chunk-11-1.png"
 width="2100" />
