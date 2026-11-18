@@ -1,0 +1,373 @@
+pharmacy_number	filial_number	pharmacy_name	address	postcode	city	pharmacy_types	ibnr	search_string	lattitude	longitude	found_address	confidence_address
+288	01	Aabenraa Løve Apotek	Aabenraa	6240	Løgumkloster	inactive	28801	unfilled	0.0	0.0	unfilled	1
+121	09	Otterup Apotek	Otterup	5450	Otterup	inactive	12109	unfilled	0.0	0.0	unfilled	0
+309	09	Enghave Apotek	Enghave	1670	København V	inactive	30909	unfilled	0.0	0.0	unfilled	2
+297	09	Nordborg Apotek	Nordborg	6430	Nordborg	inactive	29709	unfilled	0.0	0.0	unfilled	0
+044	09	Hillerød Frederiksborg Apotek	Hillerød Frederiksborg	3400	Hillerød	inactive	04409	unfilled	0.0	0.0	unfilled	1
+323	09	Tårnby Apotek	Kastrup	2770	Kastrup	inactive	32309	unfilled	0.0	0.0	unfilled	0
+179	09	Sct. Pauls Apotek	Sct. Pauls Plads	8000	Århus C	inactive	17909	unfilled	0.0	0.0	unfilled	2
+064	09	Lemvig Apotek	Lemvig	7620	Lemvig	inactive	06409	unfilled	0.0	0.0	unfilled	0
+255	09	Aalborg Reberbane Apotek	Aalborg Reberbane	9000	Aalborg	inactive	25509	unfilled	0.0	0.0	unfilled	1
+037	09	Grenaa Apotek	Trustrup	8570	Trustrup	inactive	03709	unfilled	0.0	0.0	unfilled	0
+134	09	Sct. Stefans Apotek	Sct. Stefans Plads	2200	København N	inactive	13409	unfilled	0.0	0.0	unfilled	2
+034	09	Fåborg Løve Apotek	Fåborg	5600	Faaborg	inactive	03409	unfilled	0.0	0.0	unfilled	1
+169	01	Slagelse Rådhus Apotek	Rådhuspladsen	4200	Slagelse	inactive	16901	unfilled	0.0	0.0	unfilled	2
+207	09	Stenlille Apotek	Stenlille	4295	Stenlille	inactive	20709	unfilled	0.0	0.0	unfilled	0
+160	09	Vrå Apotek	Jerslev Jylland	9740	Jerslev Jylland	inactive	16009	unfilled	0.0	0.0	unfilled	0
+354	09	Brøndbyøster Apotek	Brøndby	2605	Brøndby	inactive	35409	unfilled	0.0	0.0	unfilled	0
+062	09	Nykøbing Apotek	Nykøbing Sjælland	4500	Nykøbing Sjælland	inactive	06209	unfilled	0.0	0.0	unfilled	0
+090	05	Nørrebro Apotek	Nørrebro	1879	Frederiksberg C	inactive	09005	unfilled	0.0	0.0	unfilled	2
+218	09	Hadsund Apotek	Hadsund	9560	Hadsund	inactive	21809	unfilled	0.0	0.0	unfilled	0
+071	09	Samsø Apotek	Samsø	8305	Samsø	inactive	07109	unfilled	0.0	0.0	unfilled	0
+366	02	Århus City Vest Apotek	Århus City Vest	8220	Brabrand	inactive	36602	unfilled	0.0	0.0	unfilled	1
+205	09	Balling Apotek	Spøttrup	7860	Spøttrup	inactive	20509	unfilled	0.0	0.0	unfilled	0
+030	09	Holstebro Løveapotek	Holstebro apotek	7500	Holstebro	inactive	03009	unfilled	0.0	0.0	unfilled	1
+221	01	Havdrup Apotek	Solrød Strand	2680	Solrød Strand	inactive	22101	unfilled	0.0	0.0	unfilled	0
+113	09	Gilleleje Apotek	Gilleleje	3250	Gilleleje	inactive	11309	unfilled	0.0	0.0	unfilled	0
+081	09	Løve Apoteket	et	4970	Rødby	inactive	08109	unfilled	0.0	0.0	unfilled	1
+063	09	Aalborg Løve Apotek	Aalborg	9000	Aalborg	inactive	06309	unfilled	0.0	0.0	unfilled	1
+145	09	Bjerringbro Apotek	Bjerringbro	8850	Bjerringbro	inactive	14509	unfilled	0.0	0.0	unfilled	2
+341	02	Apoteket Rosen	et Rosen	2770	Kastrup	inactive	34102	unfilled	0.0	0.0	unfilled	1
+341	03	Apoteket Rosen	et Rosen	2700	Brønshøj	inactive	34103	unfilled	0.0	0.0	unfilled	1
+057	09	Nibe Apotek				inactive	05709	unfilled	0.0	0.0	unfilled	0
+351	09	Herlev Apotek	Herlev	2730	Herlev	inactive	35109	unfilled	0.0	0.0	unfilled	0
+080	09	Frederiksværk Apotek	Liseleje	3360	Liseleje	inactive	08009	unfilled	0.0	0.0	unfilled	0
+073	01	Fjerritslev Apotek	Frøstrup	7741	Frøstrup	inactive	07301	unfilled	0.0	0.0	unfilled	0
+242	09	Apoteket Svalen	et Svalen	2200	København N	inactive	24209	unfilled	0.0	0.0	unfilled	1
+120	01	Ulfborg Apotek	Bøvlingbjerg	7650	Bøvlingbjerg	inactive	12001	unfilled	0.0	0.0	unfilled	0
+343	09	Vanløse Løve Apotek	Vanløse	2720	Vanløse	inactive	34309	unfilled	0.0	0.0	unfilled	1
+138	09	Nærum Apotek	Vedbæk	2950	Vedbæk	inactive	13809	unfilled	0.0	0.0	unfilled	0
+087	09	Hammel Frijsenborg Apotek	Hammel Frijsenborg	8881	Thorsø	inactive	08709	unfilled	0.0	0.0	unfilled	1
+274	02	Randers Jernbane Apotek	Randers Jernbane	8870	Langå	inactive	27402	unfilled	0.0	0.0	unfilled	1
+170	04	Roskilde Svane Apotek	Roskilde Svane	4000	Roskilde	inactive	17004	unfilled	0.0	0.0	unfilled	1
+158	01	Esbjerg Krone Apotek	Esbjerg Krone	6700	Esbjerg	inactive	15801	unfilled	0.0	0.0	unfilled	1
+047	01	Middelfart Apotek	Middelfart	5500	Middelfart	inactive	04701	unfilled	0.0	0.0	unfilled	0
+278	04	Farum Apotek	Farum	3520	Farum	inactive	27804	unfilled	0.0	0.0	unfilled	0
+118	09	Horsens Svane Apotek	Horsens Svane	8700	Horsens	inactive	11809	unfilled	0.0	0.0	unfilled	1
+021	01	Kongelig Hof Apotek	Kongelig Hof	2300	København S	inactive	02101	unfilled	0.0	0.0	unfilled	1
+077	01	Ringsted Apotek	Ringsted	4100	Ringsted	inactive	07701	unfilled	0.0	0.0	unfilled	0
+084	09	Løgstør Apotek	Løgstør	9670	Løgstør	inactive	08409	unfilled	0.0	0.0	unfilled	0
+025	09	Maribo Apotek	Maribo	4930	Maribo	inactive	02509	unfilled	0.0	0.0	unfilled	0
+246	09	Vildbjerg Apotek	Vildbjerg	7480	Vildbjerg	inactive	24609	unfilled	0.0	0.0	unfilled	0
+364	09	Helsingør Axeltorvs Apotek	Helsingør Axeltorvs	3000	Helsingør	inactive	36409	unfilled	0.0	0.0	unfilled	2
+200	09	Vejen Apotek	Vejen	6600	Vejen	inactive	20009	unfilled	0.0	0.0	unfilled	2
+291	09	Haderslev Hjorte Apotek	Haderslev Hjorte	6100	Haderslev	inactive	29109	unfilled	0.0	0.0	unfilled	1
+273	09	Skive Svane Apotek	Skive Svane	8800	Viborg	inactive	27309	unfilled	0.0	0.0	unfilled	1
+105	09	Aabybro Apotek	Aabybro	9440	Aabybro	inactive	10509	unfilled	0.0	0.0	unfilled	2
+287	02	Aabenraa Svane Apotek	Aabenraa Svane	6200	Aabenraa	inactive	28702	unfilled	0.0	0.0	unfilled	1
+012	09	Næstved Løve Apotek	Næstved	4700	Næstved	inactive	01209	unfilled	0.0	0.0	unfilled	1
+090	03	Nørrebro Apotek	Nørrebro	1799	København V	inactive	09003	unfilled	0.0	0.0	unfilled	2
+143	01	Roslev Apotek	Spøttrup	7860	Spøttrup	inactive	14301	unfilled	0.0	0.0	unfilled	0
+083	09	Karise Apotek	Karise	4653	Karise	inactive	08309	unfilled	0.0	0.0	unfilled	0
+082	09	Nexø Apotek	Gudhjem	3760	Gudhjem	inactive	08209	unfilled	0.0	0.0	unfilled	0
+005	03	Kolding Løve Apotek	Kolding	6000	Kolding	inactive	00503	unfilled	0.0	0.0	unfilled	1
+238	09	Helsingør Stengades Apotek	Helsingør Stengades	3000	Helsingør	inactive	23809	unfilled	0.0	0.0	unfilled	2
+302	03	Tønder Løve Apotek	Tønder	6270	Tønder	inactive	30203	unfilled	0.0	0.0	unfilled	1
+047	09	Middelfart Apotek	Middelfart	5500	Middelfart	inactive	04709	unfilled	0.0	0.0	unfilled	0
+165	09	Søndersø Apotek	Bogense	5400	Bogense	inactive	16509	unfilled	0.0	0.0	unfilled	0
+276	09	Børkop Apotek	Fredericia	7000	Fredericia	inactive	27609	unfilled	0.0	0.0	unfilled	0
+129	09	Galten Apotek	Låsby	8670	Låsby	inactive	12909	unfilled	0.0	0.0	unfilled	0
+204	02	Silkeborg Himmelbjerg Apotek	Silkeborg Himmelbjerg	8600	Silkeborg	inactive	20402	unfilled	0.0	0.0	unfilled	1
+268	09	Holsted Apotek	Glejbjerg	6752	Glejbjerg	inactive	26809	unfilled	0.0	0.0	unfilled	0
+119	09	Hvalsø Apotek	Hvalsø	4330	Hvalsø	inactive	11909	unfilled	0.0	0.0	unfilled	0
+239	09	Holbæk Løve Apotek	Holbæk	4420	Regstrup	inactive	23909	unfilled	0.0	0.0	unfilled	1
+323	01	Tårnby Apotek	Dragør	2791	Dragør	inactive	32301	unfilled	0.0	0.0	unfilled	0
+005	09	Kolding Løve Apotek	Kolding	6000	Kolding	inactive	00509	unfilled	0.0	0.0	unfilled	1
+366	01	Århus City Vest Apotek	Århus City Vest	8381	Tilst	inactive	36601	unfilled	0.0	0.0	unfilled	1
+137	09	Glumsø Apotek	Næstved	4700	Næstved	inactive	13709	unfilled	0.0	0.0	unfilled	0
+337	09	Århus Åbyhøj Apotek	Århus Åbyhøj	8230	Åbyhøj	inactive	33709	unfilled	0.0	0.0	unfilled	1
+225	09	Ballerup Apotek	Ballerup	2750	Ballerup	inactive	22509	unfilled	0.0	0.0	unfilled	2
+015	09	Løve Apoteket Lillebælt Løvbjerg	et Lillebælt Løvbjerg	7000	Fredericia	inactive	01509	unfilled	0.0	0.0	unfilled	1
+212	09	Skagen Apotek	Skagen	9990	Skagen	inactive	21209	unfilled	0.0	0.0	unfilled	0
+060	03	Skanderborg Apotek	Hørning	8362	Hørning	inactive	06003	unfilled	0.0	0.0	unfilled	0
+328	09	Apoteket Bryggergården	et Bryggergården	5000	Odense C	inactive	32809	unfilled	0.0	0.0	unfilled	1
+060	01	Skanderborg Apotek	Ry	8680	Ry	inactive	06001	unfilled	0.0	0.0	unfilled	0
+176	09	Sejlflod Apotek	Storvorde	9280	Storvorde	inactive	17609	unfilled	0.0	0.0	unfilled	0
+320	09	Østerbro Apotek	Østerbro	2100	København Ø	inactive	32009	unfilled	0.0	0.0	unfilled	2
+232	09	Apoteket Trianglen	et Trianglen	2100	København Ø	inactive	23209	unfilled	0.0	0.0	unfilled	1
+214	01	Videbæk Apotek	Kibæk	6933	Kibæk	inactive	21401	unfilled	0.0	0.0	unfilled	0
+067	02	Stevns Apotek	Køge	4600	Køge	inactive	06702	unfilled	0.0	0.0	unfilled	0
+209	09	Ølgod Apotek	Ølgod	6870	Ølgod	inactive	20909	unfilled	0.0	0.0	unfilled	0
+308	09	Holmbladsgades apotek	Holmbladsgades apotek	2300	København S	inactive	30809	unfilled	0.0	0.0	unfilled	2
+289	09	Gråsten Apotek	Gråsten	6300	Gråsten	inactive	28909	unfilled	0.0	0.0	unfilled	0
+161	09	Svendborg Sct. Nicolai Apotek	Svendborg Sct. Nicolai Plads	5762	Vester Skerninge	inactive	16109	unfilled	0.0	0.0	unfilled	2
+315	09	Marstal Apotek	Marstal	5960	Marstal	inactive	31509	unfilled	0.0	0.0	unfilled	0
+166	09	Horsens Løve Apotek	Horsens	8700	Horsens	inactive	16609	unfilled	0.0	0.0	unfilled	1
+295	09	Toftlund Apotek	Bredebro	6261	Bredebro	inactive	29509	unfilled	0.0	0.0	unfilled	0
+040	09	Svane apoteket	Svane apoteket	8000	Århus C	inactive	04009	unfilled	0.0	0.0	unfilled	1
+355	03	Friheden Apotek	Hvidovre	2650	Hvidovre	inactive	35503	unfilled	0.0	0.0	unfilled	0
+150	09	Struer Apotek	Struer	7600	Struer	inactive	15009	unfilled	0.0	0.0	unfilled	0
+022	09	Slagelse Svane Apotek	Slagelse Svane	4200	Slagelse	inactive	02209	unfilled	0.0	0.0	unfilled	1
+333	09	Apoteket Ryparken	et Ryparken	2100	København Ø	inactive	33309	unfilled	0.0	0.0	unfilled	2
+039	09	Thisted Svane Apotek	Thisted Svane	7700	Thisted	inactive	03909	unfilled	0.0	0.0	unfilled	1
+060	04	Skanderborg Apotek	Højbjerg	8270	Højbjerg	inactive	06004	unfilled	0.0	0.0	unfilled	0
+233	09	Esbjerg Neptun Apotek	Esbjerg Neptun	6700	Esbjerg	inactive	23309	unfilled	0.0	0.0	unfilled	1
+220	02	Skørping Apotek	Aalborg SV	9200	Aalborg SV	inactive	22002	unfilled	0.0	0.0	unfilled	0
+028	09	Stege Apotek	Stege	4780	Stege	inactive	02809	unfilled	0.0	0.0	unfilled	0
+143	09	Roslev Apotek	Spøttrup	7860	Spøttrup	inactive	14309	unfilled	0.0	0.0	unfilled	0
+219	09	Nørre-Snede Apotek	Ejstrupholm	7361	Ejstrupholm	inactive	21909	unfilled	0.0	0.0	unfilled	0
+326	09	Randers Sønderbro Apotek	Randers Sønderbro	8900	Randers	inactive	32609	unfilled	0.0	0.0	unfilled	2
+341	09	Apoteket Rosen	et Rosen	2400	København NV	inactive	34109	unfilled	0.0	0.0	unfilled	1
+268	01	Holsted Apotek	Brørup	6650	Brørup	inactive	26801	unfilled	0.0	0.0	unfilled	0
+154	09	Humlebæk Apotek	Humlebæk	3050	Humlebæk	inactive	15409	unfilled	0.0	0.0	unfilled	0
+248	09	Hedensted Apotek	Hedensted	8722	Hedensted	inactive	24809	unfilled	0.0	0.0	unfilled	0
+032	09	Vordingborg Apotek	Kalvehave	4771	Kalvehave	inactive	03209	unfilled	0.0	0.0	unfilled	0
+115	09	Give Apotek	Gadbjerg	7321	Gadbjerg	inactive	11509	unfilled	0.0	0.0	unfilled	0
+088	09	Grindsted Apotek	Grindsted	7200	Grindsted	inactive	08809	unfilled	0.0	0.0	unfilled	0
+015	01	Løve Apoteket Lillebælt Løvbjerg	et Lillebælt Løvbjerg	7000	Fredericia	inactive	01501	unfilled	0.0	0.0	unfilled	1
+076	09	Svane apoteket	Svane apoteket	8900	Randers	inactive	07609	unfilled	0.0	0.0	unfilled	1
+183	01	Steno Apotek	København V	1577	København V	inactive	18301	unfilled	0.0	0.0	unfilled	0
+198	09	Odense Sct. Hans Apotek	Odense Sct. Hans Plads	5000	Odense C	inactive	19809	unfilled	0.0	0.0	unfilled	2
+302	09	Tønder Løve Apotek	Tønder	6261	Bredebro	inactive	30209	unfilled	0.0	0.0	unfilled	1
+111	09	Frederiksberg Apotek	København V	1617	København V	inactive	11109	unfilled	0.0	0.0	unfilled	0
+017	01	Roskilde Dom Apotek	Roskilde Dom	4000	Roskilde	inactive	01701	unfilled	0.0	0.0	unfilled	1
+327	09	Dalgas Boulevard Apotek	Dalgas Boulevard	2000	Frederiksberg	inactive	32709	unfilled	0.0	0.0	unfilled	2
+181	09	Aalborg Budolfi Apotek	Aalborg Budolfi	9230	Svenstrup Jylland	inactive	18109	unfilled	0.0	0.0	unfilled	1
+352	09	Århus Stjerne Apotek	Århus Stjerne	8200	Århus N	inactive	35209	unfilled	0.0	0.0	unfilled	1
+252	09	Tåstrup Apotek	Taastrup	2630	Taastrup	inactive	25209	unfilled	0.0	0.0	unfilled	0
+065	09	Stubbekøbing Apotek	Stubbekøbing	4850	Stubbekøbing	inactive	06509	unfilled	0.0	0.0	unfilled	0
+177	09	Odense Albani Apotek	Odense Albani	5000	Odense C	inactive	17709	unfilled	0.0	0.0	unfilled	1
+030	01	Holstebro Løveapotek	Holstebro apotek	7500	Holstebro	inactive	03001	unfilled	0.0	0.0	unfilled	1
+247	09	Thisted Løve Apotek	Thisted	7700	Thisted	inactive	24709	unfilled	0.0	0.0	unfilled	1
+112	09	Kjellerup Apotek	Kjellerup	8620	Kjellerup	inactive	11209	unfilled	0.0	0.0	unfilled	0
+106	09	Aarup Apotek	Aarup	5560	Aarup	inactive	10609	unfilled	0.0	0.0	unfilled	0
+277	09	Hurup Apotek	Hurup Thy	7760	Hurup Thy	inactive	27709	unfilled	0.0	0.0	unfilled	0
+347	09	Århus Sct. Lukas Apotek	Århus Sct. Lukas Plads	8000	Århus C	inactive	34709	unfilled	0.0	0.0	unfilled	2
+350	09	Kastrup Apotek	Kastrup	2770	Kastrup	inactive	35009	unfilled	0.0	0.0	unfilled	0
+342	09	Lyngby Løve Apotek	Lyngby	2800	Kongens Lyngby	inactive	34209	unfilled	0.0	0.0	unfilled	1
+202	09	Øresunds Apotek	København Ø	2100	København Ø	inactive	20209	unfilled	0.0	0.0	unfilled	0
+360	01	Skovlunde Apotek	Rødovre	2610	Rødovre	inactive	36001	unfilled	0.0	0.0	unfilled	0
+291	02	Haderslev Hjorte Apotek	Haderslev Hjorte	6100	Haderslev	inactive	29102	unfilled	0.0	0.0	unfilled	1
+077	09	Ringsted Apotek	Ringsted	4100	Ringsted	inactive	07709	unfilled	0.0	0.0	unfilled	0
+108	09	Hornsyld Apotek	Juelsminde	7130	Juelsminde	inactive	10809	unfilled	0.0	0.0	unfilled	0
+117	09	Hesselager Apotek	Hesselager	5874	Hesselager	inactive	11709	unfilled	0.0	0.0	unfilled	0
+018	09	Nykøbing F. Løve Apotek	Nykøbing F.	4894	Øster Ulslev	inactive	01809	unfilled	0.0	0.0	unfilled	1
+311	09	Vojens Apotek	Haderslev	6100	Haderslev	inactive	31109	unfilled	0.0	0.0	unfilled	0
+241	09	Århus Marselisborg Apotek	Århus Marselisborg	8320	Mårslet	inactive	24109	unfilled	0.0	0.0	unfilled	1
+066	09	Frederikshavn Løve Apotek	Frederikshavn	9900	Frederikshavn	inactive	06609	unfilled	0.0	0.0	unfilled	1
+017	05	Roskilde Dom Apotek	Roskilde Dom	2630	Taastrup	inactive	01705	unfilled	0.0	0.0	unfilled	1
+158	09	Esbjerg Krone Apotek	Esbjerg Krone	6700	Esbjerg	inactive	15809	unfilled	0.0	0.0	unfilled	1
+109	09	Glostrup Apotek	Glostrup	2600	Glostrup	inactive	10909	unfilled	0.0	0.0	unfilled	0
+100	09	Haslev Apotek				inactive	10009	unfilled	0.0	0.0	unfilled	0
+252	02	Tåstrup Apotek	Taastrup	2630	Taastrup	inactive	25202	unfilled	0.0	0.0	unfilled	0
+370	09	Greve Apotek	Roskilde	4000	Roskilde	inactive	37009	unfilled	0.0	0.0	unfilled	0
+290	09	Christiansfeld Apotek	Christiansfeld	6070	Christiansfeld	inactive	29009	unfilled	0.0	0.0	unfilled	0
+271	09	Vejle Sct. Thomas Apotek	Vejle Sct. Thomas Plads	7100	Vejle	inactive	27109	unfilled	0.0	0.0	unfilled	2
+073	09	Fjerritslev Apotek	Fjerritslev	9690	Fjerritslev	inactive	07309	unfilled	0.0	0.0	unfilled	0
+344	09	Silkeborg Svane Apotek	Silkeborg Svane	8600	Silkeborg	inactive	34409	unfilled	0.0	0.0	unfilled	1
+091	09	Ringe Apotek	Årslev	5792	Årslev	inactive	09109	unfilled	0.0	0.0	unfilled	0
+026	09	Holbæk Elefant Apotek	Holbæk Elefant	4534	Hørve	inactive	02609	unfilled	0.0	0.0	unfilled	1
+298	09	Sønderborg Løve Apotek Cent. Øst	Sønderborg   Cent. Øst	6400	Sønderborg	inactive	29809	unfilled	0.0	0.0	unfilled	1
+317	09	Århus Trøjborg Apotek	Århus Trøjborg	8200	Århus N	inactive	31709	unfilled	0.0	0.0	unfilled	1
+306	09	Aalborg Vejgaard Apotek	Aalborg Vejgaard	9220	Aalborg Øst	inactive	30609	unfilled	0.0	0.0	unfilled	2
+222	09	Fasan apotek	Fasan apotek	2000	Frederiksberg	inactive	22209	unfilled	0.0	0.0	unfilled	1
+193	09	Brønshøj apotek	Brønshøj apotek	2700	Brønshøj	inactive	19309	unfilled	0.0	0.0	unfilled	1
+300	09	Løgumkloster Apotek	Bredebro	6261	Bredebro	inactive	30009	unfilled	0.0	0.0	unfilled	0
+316	02	Nyborg Apotek	Bogense	5400	Bogense	inactive	31602	unfilled	0.0	0.0	unfilled	0
+204	09	Silkeborg Himmelbjerg Apotek	Silkeborg Himmelbjerg	8600	Silkeborg	inactive	20409	unfilled	0.0	0.0	unfilled	1
+220	09	Skørping Apotek	Skørping	9520	Skørping	inactive	22009	unfilled	0.0	0.0	unfilled	0
+360	09	Skovlunde Apotek	Skovlunde	2740	Skovlunde	inactive	36009	unfilled	0.0	0.0	unfilled	0
+339	09	Rødovre Apotek	Rødovre	2610	Rødovre	inactive	33909	unfilled	0.0	0.0	unfilled	0
+281	09	Herning Østergades Apotek	Herning Østergades	7400	Herning	inactive	28109	unfilled	0.0	0.0	unfilled	2
+356	09	Hirtshals Apotek	Hjørring	9800	Hjørring	inactive	35609	unfilled	0.0	0.0	unfilled	0
+249	09	Ikast Apotek	Engesvang	7442	Engesvang	inactive	24909	unfilled	0.0	0.0	unfilled	0
+089	09	Silkeborg Ørne Apotek	Silkeborg Ørne	8600	Silkeborg	inactive	08909	unfilled	0.0	0.0	unfilled	1
+130	09	Skibby Apotek	Skibby	4050	Skibby	inactive	13009	unfilled	0.0	0.0	unfilled	0
+067	09	Stevns Apotek	Store Heddinge	4660	Store Heddinge	inactive	06709	unfilled	0.0	0.0	unfilled	0
+334	01	Grøndalsapoteket	Frederiksberg	2000	Frederiksberg	inactive	33401	unfilled	0.0	0.0	unfilled	0
+060	02	Skanderborg Apotek	Skanderborg	8660	Skanderborg	inactive	06002	unfilled	0.0	0.0	unfilled	0
+191	09	Helsinge Apotek	Helsinge	3200	Helsinge	inactive	19109	unfilled	0.0	0.0	unfilled	0
+316	01	Nyborg Apotek	Nyborg	5800	Nyborg	inactive	31601	unfilled	0.0	0.0	unfilled	0
+340	09	Hamlets Apotek	København N	2200	København N	inactive	34009	unfilled	0.0	0.0	unfilled	0
+098	09	Tarm Apotek	Tarm	6880	Tarm	inactive	09809	unfilled	0.0	0.0	unfilled	0
+152	09	Langeskov Apotek	Langeskov	5550	Langeskov	inactive	15209	unfilled	0.0	0.0	unfilled	0
+010	09	Svane Apoteket	Svane et	9000	Aalborg	inactive	01009	unfilled	0.0	0.0	unfilled	1
+017	09	Roskilde Dom Apotek	Roskilde Dom	4000	Roskilde	inactive	01709	unfilled	0.0	0.0	unfilled	1
+120	09	Ulfborg Apotek	Ulfborg	6990	Ulfborg	inactive	12009	unfilled	0.0	0.0	unfilled	0
+346	09	Birkerød Apotek	Birkerød	3460	Birkerød	inactive	34609	unfilled	0.0	0.0	unfilled	0
+189	09	Ejby Apotek	Vissenbjerg	5492	Vissenbjerg	inactive	18909	unfilled	0.0	0.0	unfilled	0
+244	09	Østervrå Apotek	Øster Vrå	9750	Øster Vrå	inactive	24409	unfilled	0.0	0.0	unfilled	0
+092	09	Nørresundby Apotek	Nørresundby	9400	Nørresundby	inactive	09209	unfilled	0.0	0.0	unfilled	0
+070	09	Ebeltoft Apotek	Ebeltoft	8400	Ebeltoft	inactive	07009	unfilled	0.0	0.0	unfilled	0
+053	09	Skive Løve Apotek	Skive	7800	Skive	inactive	05309	unfilled	0.0	0.0	unfilled	1
+253	09	Bramminge Apotek	Gørding	6690	Gørding	inactive	25309	unfilled	0.0	0.0	unfilled	0
+132	09	Århus Jernbane Apotek	Århus Jernbane	8000	Århus C	inactive	13209	unfilled	0.0	0.0	unfilled	1
+292	09	Haderslev Løve Apotek	Haderslev	6100	Haderslev	inactive	29209	unfilled	0.0	0.0	unfilled	1
+008	01	Ribe Apotek	Ribe	6760	Ribe	inactive	00801	unfilled	0.0	0.0	unfilled	0
+216	09	Asnæs Apotek	Fårevejle	4540	Fårevejle	inactive	21609	unfilled	0.0	0.0	unfilled	0
+017	06	Roskilde Dom Apotek	Roskilde Dom	4000	Roskilde	inactive	01706	unfilled	0.0	0.0	unfilled	1
+245	09	Hals Apotek	Hals	9370	Hals	inactive	24509	unfilled	0.0	0.0	unfilled	0
+278	03	Farum Apotek	København Ø	2100	København Ø	inactive	27803	unfilled	0.0	0.0	unfilled	0
+312	09	Søborg Apotek	Søborg	2860	Søborg	inactive	31209	unfilled	0.0	0.0	unfilled	0
+252	04	Tåstrup Apotek	Roskilde	4000	Roskilde	inactive	25204	unfilled	0.0	0.0	unfilled	0
+068	09	Frederikssund Apotek	Frederikssund	3600	Frederikssund	inactive	06809	unfilled	0.0	0.0	unfilled	0
+054	09	Hobro Apotek	Hobro	9500	Hobro	inactive	05409	unfilled	0.0	0.0	unfilled	2
+052	09	Kerteminde Apotek	Dalby	5380	Dalby	inactive	05209	unfilled	0.0	0.0	unfilled	0
+243	09	Amagerbro Apotek	Amagerbro	2300	København S	inactive	24309	unfilled	0.0	0.0	unfilled	2
+301	09	Tinglev Apotek	Bylderup-Bov	6372	Bylderup-Bov	inactive	30109	unfilled	0.0	0.0	unfilled	0
+169	09	Slagelse Rådhus Apotek	Rådhuspladsen	4200	Slagelse	inactive	16909	unfilled	0.0	0.0	unfilled	2
+262	09	Gl. Kongevej Apotek	Gl. Kongevej	1850	Frederiksberg C	inactive	26209	unfilled	0.0	0.0	unfilled	2
+243	01	Amagerbro Apotek	Amagerbro	2300	København S	inactive	24301	unfilled	0.0	0.0	unfilled	2
+275	09	Holstebro Svane Apotek	Holstebro Svane	7830	Vinderup	inactive	27509	unfilled	0.0	0.0	unfilled	2
+170	09	Roskilde Svane Apotek	Roskilde Svane	4000	Roskilde	inactive	17009	unfilled	0.0	0.0	unfilled	1
+146	09	Vester-Skerninge Apotek	Vester Skerninge	5762	Vester Skerninge	inactive	14609	unfilled	0.0	0.0	unfilled	0
+156	03	Uldum Apotek	Vejle	7100	Vejle	inactive	15603	unfilled	0.0	0.0	unfilled	0
+021	09	Kongelig Hof Apotek	Kongelig Hof	1264	København K	inactive	02109	unfilled	0.0	0.0	unfilled	1
+215	09	Gentofte Apotek	Dyssegård	2870	Dyssegård	inactive	21509	unfilled	0.0	0.0	unfilled	0
+170	01	Roskilde Svane Apotek	Roskilde Svane	4040	Jyllinge	inactive	17001	unfilled	0.0	0.0	unfilled	1
+367	09	Hillerød Krone Apotek	Hillerød Krone	3400	Hillerød	inactive	36709	unfilled	0.0	0.0	unfilled	1
+130	01	Skibby Apotek	Jægerspris	3630	Jægerspris	inactive	13001	unfilled	0.0	0.0	unfilled	0
+024	09	Assens Apotek	Glamsbjerg	5620	Glamsbjerg	inactive	02409	unfilled	0.0	0.0	unfilled	0
+075	09	Nysted Apotek	Nysted	4880	Nysted	inactive	07509	unfilled	0.0	0.0	unfilled	0
+086	09	Præstø Apotek	Præstø	4720	Præstø	inactive	08609	unfilled	0.0	0.0	unfilled	0
+079	09	Hørsholm Apotek	Kokkedal	2980	Kokkedal	inactive	07909	unfilled	0.0	0.0	unfilled	0
+021	02	Kongelig Hof Apotek	Kongelig Hof	2300	København S	inactive	02102	unfilled	0.0	0.0	unfilled	1
+090	07	Nørrebro Apotek	Nørrebro	2000	Frederiksberg	inactive	09007	unfilled	0.0	0.0	unfilled	2
+104	09	Hornslet Apotek	Skødstrup	8541	Skødstrup	inactive	10409	unfilled	0.0	0.0	unfilled	0
+178	09	Århus Vejlby Apotek	Århus Vejlby	8240	Risskov	inactive	17809	unfilled	0.0	0.0	unfilled	2
+035	09	Svendborg Løve Apotek	Svendborg	5700	Svendborg	inactive	03509	unfilled	0.0	0.0	unfilled	1
+195	09	Nørre Alslev Apotek	Nørre Alslev	4840	Nørre Alslev	inactive	19509	unfilled	0.0	0.0	unfilled	1
+357	09	Odense Bolbro Apotek	Odense Bolbro	5491	Blommenslyst	inactive	35709	unfilled	0.0	0.0	unfilled	2
+018	02	Nykøbing F. Løve Apotek	Nykøbing F.	4800	Nykøbing Falster	inactive	01802	unfilled	0.0	0.0	unfilled	1
+102	09	Fuglebjerg Apotek	Fuglebjerg	4250	Fuglebjerg	inactive	10209	unfilled	0.0	0.0	unfilled	0
+090	09	Nørrebro Apotek	Nørrebro	2200	København N	inactive	09009	unfilled	0.0	0.0	unfilled	2
+258	09	Brande Apotek	Brande	7330	Brande	inactive	25809	unfilled	0.0	0.0	unfilled	0
+103	09	Ørsted apotek	Ørsted apotek	8961	Allingåbro	inactive	10309	unfilled	0.0	0.0	unfilled	1
+359	09	Albertslund Apotek	Albertslund	2620	Albertslund	inactive	35909	unfilled	0.0	0.0	unfilled	0
+090	01	Nørrebro Apotek	Nørrebro	1561	København V	inactive	09001	unfilled	0.0	0.0	unfilled	2
+236	09	Hjørring Svane Apotek	Hjørring Svane	9800	Hjørring	inactive	23609	unfilled	0.0	0.0	unfilled	1
+027	09	Rudkøbing Apotek	Rudkøbing	5900	Rudkøbing	inactive	02709	unfilled	0.0	0.0	unfilled	0
+213	09	Vinderup Apotek	Vinderup	7830	Vinderup	inactive	21309	unfilled	0.0	0.0	unfilled	0
+090	04	Nørrebro Apotek	Nørrebro	1620	København V	inactive	09004	unfilled	0.0	0.0	unfilled	2
+202	02	Øresunds Apotek	Hedehusene	2640	Hedehusene	inactive	20202	unfilled	0.0	0.0	unfilled	0
+131	09	Viborg Løve Apotek	Viborg	8800	Viborg	inactive	13109	unfilled	0.0	0.0	unfilled	1
+336	09	Oxford Alle apotek	Oxford Alle apotek	2300	København S	inactive	33609	unfilled	0.0	0.0	unfilled	2
+144	09	Dronninglund Apotek	Dronninglund	9330	Dronninglund	inactive	14409	unfilled	0.0	0.0	unfilled	0
+185	09	Smallegades Apotek	Smallegades	2000	Frederiksberg	inactive	18509	unfilled	0.0	0.0	unfilled	2
+259	09	Aars Apotek	Nørager	9610	Nørager	inactive	25909	unfilled	0.0	0.0	unfilled	0
+323	03	Tårnby Apotek	Kastrup	2770	Kastrup	inactive	32303	unfilled	0.0	0.0	unfilled	0
+223	09	Fredericia Krone Apotek	Fredericia Krone	7000	Fredericia	inactive	22309	unfilled	0.0	0.0	unfilled	1
+310	09	Apoteket Bjørnen	et Bjørnen	2500	Valby	inactive	31009	unfilled	0.0	0.0	unfilled	1
+042	09	Rønne Apotek	Rønne	3700	Rønne	inactive	04209	unfilled	0.0	0.0	unfilled	0
+008	09	Ribe Apotek	Gredstedbro	6771	Gredstedbro	inactive	00809	unfilled	0.0	0.0	unfilled	0
+317	01	Århus Trøjborg Apotek	Århus Trøjborg	8200	Århus N	inactive	31701	unfilled	0.0	0.0	unfilled	1
+043	09	Korsør Apotek	Korsør	4220	Korsør	inactive	04309	unfilled	0.0	0.0	unfilled	0
+003	09	Viborg Svane Apotek	Viborg Svane	8800	Viborg	inactive	00309	unfilled	0.0	0.0	unfilled	1
+330	09	Øregård apotek	Øregård apotek	2900	Hellerup	inactive	33009	unfilled	0.0	0.0	unfilled	1
+170	02	Roskilde Svane Apotek	Roskilde Svane	4000	Roskilde	inactive	17002	unfilled	0.0	0.0	unfilled	1
+254	09	Høng Apotek	Jerslev Sjælland	4490	Jerslev Sjælland	inactive	25409	unfilled	0.0	0.0	unfilled	0
+151	09	Odense Sct. Knuds Apotek	Odense Sct. Knuds Plads	5000	Odense C	inactive	15109	unfilled	0.0	0.0	unfilled	2
+286	09	Rødding Apotek	Rødding	6630	Rødding	inactive	28609	unfilled	0.0	0.0	unfilled	0
+338	09	Linde Apoteket	Linde et	2700	Brønshøj	inactive	33809	unfilled	0.0	0.0	unfilled	1
+036	09	Vejle Løve Apotek	Vejle	7100	Vejle	inactive	03609	unfilled	0.0	0.0	unfilled	1
+160	01	Vrå Apotek	Løkken	9480	Løkken	inactive	16001	unfilled	0.0	0.0	unfilled	0
+365	09	Hundige Apotek	Greve	2670	Greve	inactive	36509	unfilled	0.0	0.0	unfilled	0
+007	09	Sorø Apotek	Sorø	4180	Sorø	inactive	00709	unfilled	0.0	0.0	unfilled	0
+184	09	Apoteket Godthåb	et Godthåb	4000	Roskilde	inactive	18409	unfilled	0.0	0.0	unfilled	1
+052	01	Kerteminde Apotek	Kerteminde	5300	Kerteminde	inactive	05201	unfilled	0.0	0.0	unfilled	0
+182	09	Hellerup Apotek	Hellerup	2900	Hellerup	inactive	18209	unfilled	0.0	0.0	unfilled	0
+170	03	Roskilde Svane Apotek	Roskilde Svane	4000	Roskilde	inactive	17003	unfilled	0.0	0.0	unfilled	1
+348	09	Hvidovre Apotek	Hvidovre	2650	Hvidovre	inactive	34809	unfilled	0.0	0.0	unfilled	0
+180	09	Borup Apotek	Ringsted	4100	Ringsted	inactive	18009	unfilled	0.0	0.0	unfilled	0
+283	09	Holte Apotek	Holte	2840	Holte	inactive	28309	unfilled	0.0	0.0	unfilled	0
+156	09	Uldum Apotek	Uldum	7171	Uldum	inactive	15609	unfilled	0.0	0.0	unfilled	0
+006	09	Århus Løve Apotek	Århus	8000	Århus C	inactive	00609	unfilled	0.0	0.0	unfilled	1
+124	01	Nørre Nebel Apotek	Nørre Nebel	6840	Oksbøl	inactive	12401	unfilled	0.0	0.0	unfilled	1
+278	09	Farum Apotek	Farum	3520	Farum	inactive	27809	unfilled	0.0	0.0	unfilled	0
+355	09	Friheden Apotek	Hvidovre	2650	Hvidovre	inactive	35509	unfilled	0.0	0.0	unfilled	0
+238	01	Helsingør Stengades Apotek	Helsingør Stengades	3000	Helsingør	inactive	23801	unfilled	0.0	0.0	unfilled	2
+345	09	Odense Dalum Apotek	Odense Dalum	5250	Odense SV	inactive	34509	unfilled	0.0	0.0	unfilled	1
+233	02	Esbjerg Neptun Apotek	Esbjerg Neptun	6760	Ribe	inactive	23302	unfilled	0.0	0.0	unfilled	1
+159	09	Charlottenlund Apotek	Charlottenlund	2920	Charlottenlund	inactive	15909	unfilled	0.0	0.0	unfilled	0
+342	06	Lyngby Løve Apotek	Lyngby	2000	Frederiksberg	inactive	34206	unfilled	0.0	0.0	unfilled	1
+363	09	Esbjerg Jerne Apotek	Esbjerg Jerne	6700	Esbjerg	inactive	36309	unfilled	0.0	0.0	unfilled	1
+214	09	Videbæk Apotek	Skjern	6900	Skjern	inactive	21409	unfilled	0.0	0.0	unfilled	0
+196	09	Nimtofte Apotek	Nimtofte	8581	Nimtofte	inactive	19609	unfilled	0.0	0.0	unfilled	0
+358	09	Buddinge Apotek	Herlev	2730	Herlev	inactive	35809	unfilled	0.0	0.0	unfilled	0
+029	02	Christianshavns Apotek	København S	2300	København S	inactive	02902	unfilled	0.0	0.0	unfilled	0
+353	09	Bagsværd Apotek	Bagsværd	2880	Bagsværd	inactive	35309	unfilled	0.0	0.0	unfilled	0
+164	02	Hadsten Apotek	Hadsten	8370	Hadsten	inactive	16402	unfilled	0.0	0.0	unfilled	0
+059	01	Lyngby Svane Apotek	Lyngby Svane	2830	Virum	inactive	05901	unfilled	0.0	0.0	unfilled	1
+326	01	Randers Sønderbro Apotek	Randers Sønderbro	8900	Randers	inactive	32601	unfilled	0.0	0.0	unfilled	2
+006	01	Århus Løve Apotek	Århus	8000	Århus C	inactive	00601	unfilled	0.0	0.0	unfilled	1
+325	09	Ordrup Apotek	Charlottenlund	2920	Charlottenlund	inactive	32509	unfilled	0.0	0.0	unfilled	0
+059	09	Lyngby Svane Apotek	Lyngby Svane	2800	Kongens Lyngby	inactive	05909	unfilled	0.0	0.0	unfilled	1
+038	09	Ringkøbing Løve Apotek	Ringkøbing	6950	Ringkøbing	inactive	03809	unfilled	0.0	0.0	unfilled	1
+116	09	Jyderup Apotek	Jyderup	4450	Jyderup	inactive	11609	unfilled	0.0	0.0	unfilled	0
+017	02	Roskilde Dom Apotek	Roskilde Dom	2630	Taastrup	inactive	01702	unfilled	0.0	0.0	unfilled	1
+124	09	Nørre Nebel Apotek	Nørre Nebel	6840	Oksbøl	inactive	12409	unfilled	0.0	0.0	unfilled	1
+058	09	Skælskør Apotek	Skælskør	4230	Skælskør	inactive	05809	unfilled	0.0	0.0	unfilled	0
+167	09	Brovst Apotek	Brovst	9460	Brovst	inactive	16709	unfilled	0.0	0.0	unfilled	2
+122	09	Egtved Apotek	Jordrup	6064	Jordrup	inactive	12209	unfilled	0.0	0.0	unfilled	0
+306	02	Aalborg Vejgaard Apotek	Aalborg Vejgaard	9000	Aalborg	inactive	30602	unfilled	0.0	0.0	unfilled	2
+101	09	Kløver Apoteket Brædstrup	Kløver et Brædstrup	8700	Horsens	inactive	10109	unfilled	0.0	0.0	unfilled	1
+197	09	Valby Apotek	Ølstykke	3650	Ølstykke	inactive	19709	unfilled	0.0	0.0	unfilled	0
+250	09	Stoholm Apotek	Stoholm Jylland	7850	Stoholm Jylland	inactive	25009	unfilled	0.0	0.0	unfilled	0
+334	09	Grøndalsapoteket	Vanløse	2720	Vanløse	inactive	33409	unfilled	0.0	0.0	unfilled	0
+210	09	Karup Apotek	Karup Jylland	7470	Karup Jylland	inactive	21009	unfilled	0.0	0.0	unfilled	0
+197	02	Valby Apotek	Charlottenlund	2920	Charlottenlund	inactive	19702	unfilled	0.0	0.0	unfilled	0
+285	09	Sønderborg Jernbane Apotek	Sønderborg Jernbane	6400	Sønderborg	inactive	28509	unfilled	0.0	0.0	unfilled	1
+318	09	Apoteket Trekroner	et Trekroner	2500	Valby	inactive	31809	unfilled	0.0	0.0	unfilled	1
+315	01	Marstal Apotek	Ærøskøbing	5970	Ærøskøbing	inactive	31501	unfilled	0.0	0.0	unfilled	0
+090	06	Nørrebro Apotek	Nørrebro	1001	København K	inactive	09006	unfilled	0.0	0.0	unfilled	2
+342	08	Lyngby Løve Apotek	Lyngby	1799	København V	inactive	34208	unfilled	0.0	0.0	unfilled	1
+187	09	Haarby Apotek	Broby	5672	Broby	inactive	18709	unfilled	0.0	0.0	unfilled	0
+013	09	Nakskov Løve Apotek	Nakskov	4920	Søllested	inactive	01309	unfilled	0.0	0.0	unfilled	1
+329	09	Dyveke Apotek	København S	2300	København S	inactive	32909	unfilled	0.0	0.0	unfilled	0
+234	09	Vejle Gorms Apotek	Vejle Gorms	7100	Vejle	inactive	23409	unfilled	0.0	0.0	unfilled	2
+155	09	Vamdrup Apotek	Vamdrup	6580	Vamdrup	inactive	15509	unfilled	0.0	0.0	unfilled	0
+266	09	Islands Brygge Apotek	Islands Brygge	2300	København S	inactive	26609	unfilled	0.0	0.0	unfilled	1
+368	09	Køge Boholte Apotek	Køge Boholte	4600	Køge	inactive	36809	unfilled	0.0	0.0	unfilled	1
+326	02	Randers Sønderbro Apotek	Randers Sønderbro	8930	Randers NØ	inactive	32602	unfilled	0.0	0.0	unfilled	2
+260	09	Aalestrup Apotek	Nørager	9610	Nørager	inactive	26009	unfilled	0.0	0.0	unfilled	0
+331	09	Aarhus Viby Apotek	Aarhus Viby	8260	Viby Jylland	inactive	33109	unfilled	0.0	0.0	unfilled	1
+305	09	Skjern Apotek	Skjern	6900	Skjern	inactive	30509	unfilled	0.0	0.0	unfilled	0
+072	09	Mariager Apotek	Mariager	9550	Mariager	inactive	07209	unfilled	0.0	0.0	unfilled	0
+350	02	Kastrup Apotek	Kastrup	2770	Kastrup	inactive	35002	unfilled	0.0	0.0	unfilled	0
+314	09	Nykøbing Mors Sct. Clemens Apo	Nykøbing Mors Sct. Clemens Apo Plads	7900	Nykøbing Mors	inactive	31409	unfilled	0.0	0.0	unfilled	2
+313	09	Frederikshavn Svane Apotek	Frederikshavn Svane	9981	Jerup	inactive	31309	unfilled	0.0	0.0	unfilled	1
+362	09	Værløse Apotek	Værløse	3500	Værløse	inactive	36209	unfilled	0.0	0.0	unfilled	0
+221	09	Havdrup Apotek	Havdrup	4622	Havdrup	inactive	22109	unfilled	0.0	0.0	unfilled	0
+123	09	Odense Bellinge Apotek	Odense Bellinge	5250	Odense SV	inactive	12309	unfilled	0.0	0.0	unfilled	1
+051	09	Varde Apotek	Vejers Strand	6853	Vejers Strand	inactive	05109	unfilled	0.0	0.0	unfilled	0
+063	01	Aalborg Løve Apotek	Aalborg	9200	Aalborg SV	inactive	06301	unfilled	0.0	0.0	unfilled	1
+285	03	Sønderborg Jernbane Apotek	Sønderborg Jernbane	6400	Sønderborg	inactive	28503	unfilled	0.0	0.0	unfilled	1
+287	09	Aabenraa Svane Apotek	Aabenraa Svane	6200	Aabenraa	inactive	28709	unfilled	0.0	0.0	unfilled	1
+175	09	Allinge Apotek	Allinge	3770	Allinge	inactive	17509	unfilled	0.0	0.0	unfilled	0
+188	09	Næstved Svane Apotek	Næstved Svane			inactive	18809	unfilled	0.0	0.0	unfilled	1
+204	01	Silkeborg Himmelbjerg Apotek	Silkeborg Himmelbjerg	8600	Silkeborg	inactive	20401	unfilled	0.0	0.0	unfilled	1
+048	09	Bogense Apotek	Bogense	5400	Bogense	inactive	04809	unfilled	0.0	0.0	unfilled	0
+352	01	Århus Stjerne Apotek	Århus Stjerne	8200	Århus N	inactive	35201	unfilled	0.0	0.0	unfilled	1
+359	01	Albertslund Apotek	Vallensbæk Strand	2665	Vallensbæk Strand	inactive	35901	unfilled	0.0	0.0	unfilled	0
+282	09	Odense Apoteket Ørnen	Odense et Ørnen	5000	Odense C	inactive	28209	unfilled	0.0	0.0	unfilled	1
+208	09	Sindal apotek	Sindal apotek	9870	Sindal	inactive	20809	unfilled	0.0	0.0	unfilled	1
+090	02	Nørrebro Apotek	Nørrebro	2500	Valby	inactive	09002	unfilled	0.0	0.0	unfilled	2
+361	09	Aalborghus Apotek	Aalborg SØ	9210	Aalborg SØ	inactive	36109	unfilled	0.0	0.0	unfilled	0
+017	04	Roskilde Dom Apotek	Roskilde Dom	2650	Hvidovre	inactive	01704	unfilled	0.0	0.0	unfilled	1
+029	09	Christianshavns Apotek	København K	1400	København K	inactive	02909	unfilled	0.0	0.0	unfilled	0
+156	02	Uldum Apotek	Tørring	7160	Tørring	inactive	15602	unfilled	0.0	0.0	unfilled	0
+366	09	Århus City Vest Apotek	Århus City Vest	8220	Brabrand	inactive	36609	unfilled	0.0	0.0	unfilled	1
+316	09	Nyborg Apotek	Nyborg	5800	Nyborg	inactive	31609	unfilled	0.0	0.0	unfilled	0
+078	01	Herning Løve Apotek	Herning	7400	Herning	inactive	07801	unfilled	0.0	0.0	unfilled	1
+164	09	Hadsten Apotek	Hinnerup	8382	Hinnerup	inactive	16409	unfilled	0.0	0.0	unfilled	0
+274	09	Randers Jernbane Apotek	Randers Jernbane	8900	Randers	inactive	27409	unfilled	0.0	0.0	unfilled	1
+018	03	Nykøbing F. Løve Apotek	Nykøbing F.	4930	Maribo	inactive	01803	unfilled	0.0	0.0	unfilled	1
+023	09	Kalundborg Svane Apotek	Kalundborg Svane	4400	Kalundborg	inactive	02309	unfilled	0.0	0.0	unfilled	1
+288	09	Aabenraa Løve Apotek	Aabenraa	6200	Aabenraa	inactive	28809	unfilled	0.0	0.0	unfilled	1
+011	09	Randers Løve Apotek	Randers	8900	Randers	inactive	01109	unfilled	0.0	0.0	unfilled	1
+322	09	Husum Apotek	Brønshøj	2700	Brønshøj	inactive	32209	unfilled	0.0	0.0	unfilled	0
+090	08	Nørrebro Apotek	Nørrebro	1459	København K	inactive	09008	unfilled	0.0	0.0	unfilled	2
+206	09	Fakse Apotek	Fakse	4640	Fakse	inactive	20609	unfilled	0.0	0.0	unfilled	0
+216	01	Asnæs Apotek	Holbæk	4300	Holbæk	inactive	21601	unfilled	0.0	0.0	unfilled	0
+136	09	Nykøbing F. Svane Apotek	Nykøbing F. Svane	4800	Nykøbing Falster	inactive	13609	unfilled	0.0	0.0	unfilled	1
+078	09	Herning Løve Apotek	Herning	7400	Herning	inactive	07809	unfilled	0.0	0.0	unfilled	1
+029	01	Christianshavns Apotek	København S	2300	København S	inactive	02901	unfilled	0.0	0.0	unfilled	0
+199	09	Sønderbro Apotek	Sønderbro	2300	København S	inactive	19909	unfilled	0.0	0.0	unfilled	2
+060	05	Skanderborg Apotek	Skanderborg	8660	Skanderborg	inactive	06005	unfilled	0.0	0.0	unfilled	0
+096	09	Odder Apotek	Solbjerg	8355	Solbjerg	inactive	09609	unfilled	0.0	0.0	unfilled	0
+017	03	Roskilde Dom Apotek	Roskilde Dom	2630	Taastrup	inactive	01703	unfilled	0.0	0.0	unfilled	1
+172	09	Brønderslev Apotek	Brønderslev	9700	Brønderslev	inactive	17209	unfilled	0.0	0.0	unfilled	0
+129	01	Galten Apotek	Harlev Jylland	8462	Harlev Jylland	inactive	12901	unfilled	0.0	0.0	unfilled	0
+069	09	Sæby Apotek	Sæby	9300	Sæby	inactive	06909	unfilled	0.0	0.0	unfilled	0
+019	09	Horsens Søndergades Apotek	Horsens Søndergades	8700	Horsens	inactive	01909	unfilled	0.0	0.0	unfilled	2
+060	09	Skanderborg Apotek	Skanderborg	8660	Skanderborg	inactive	06009	unfilled	0.0	0.0	unfilled	0
